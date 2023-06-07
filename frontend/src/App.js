@@ -1,5 +1,7 @@
 import './App.css';
+import Shop from './components/Shop';
 import Home from './components/Home';
+import About from './components/About';
 import Footer from './components/layouts/Footer';
 import Header from './components/layouts/Header';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -58,7 +60,9 @@ function App() {
                 <div className='container container-fluid'>
                   <ToastContainer theme='dark' />
                   <Routes>
-                      <Route path='/product' element={<Home/>} />
+                      <Route path='/home' element={<Home/>} />
+                      <Route path='/product' element={<Shop/>} />
+                      <Route path='/aboutus' element={<About/>}/>
                       
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
