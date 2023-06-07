@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  margin-top: 100px;
+  margin-top: 33px;
   background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg");
 
 }
@@ -622,4 +622,10 @@ ul.CTAs a {
 .review_user {
   font-size: 0.8rem;
   color: grey;
+}
+#carouselExampleSlidesOnly{
+  /* margin: -281px; */
+  margin-left: -278px;
+  margin-right: -278px;
+  /* margin-top: -100px; */
 }

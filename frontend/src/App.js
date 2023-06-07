@@ -60,7 +60,7 @@ function App() {
                 <div className='container container-fluid'>
                   <ToastContainer theme='dark' />
                   <Routes>
-                      <Route path='/home' element={<Home/>} />
+                      <Route path='/' element={<Home/>} />
                       <Route path='/product' element={<Shop/>} />
                       <Route path='/aboutus' element={<About/>}/>
                       
