@@ -32,12 +32,16 @@ const Carousel = ()=>{
 
     );
     
-}
+};
+
+
 
 function App (){
 
     return(
-        <Carousel></Carousel>
+       <div>
+         <Carousel></Carousel>
+       </div>
     );
 };
 export default App;

@@ -10,9 +10,9 @@ export  default function Footer (){
   >
 <div className="container">
   <div className="row text-left">
-    <div className="col-6 foot">    © 2020 Copyright:
-    <a className="text-dark" href="https://mdbootstrap.com/">
-      MDBootstrap.com
+    <div className="col-6 foot">    © 2023 Copyright:
+    <a className="text-dark" href="#">
+      Auwshiherbs.com
     </a>
     </div>
     <div className="col-6 text-right"> 
