@@ -624,8 +624,10 @@ ul.CTAs a {
   color: grey;
 }
 #carouselExampleSlidesOnly{
-  /* margin: -281px; */
   margin-left: -278px;
   margin-right: -278px;
-  /* margin-top: -100px; */
 }
+.foot{
+  margin-top: 12px;
+}
+
