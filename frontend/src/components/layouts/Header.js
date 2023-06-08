@@ -31,6 +31,7 @@ function Header() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link className="navbox" href="/aboutus">About Us</Nav.Link>
             <Nav.Link href="/product">Products</Nav.Link>
+            <Nav.Link href="/blog">Blogs</Nav.Link>
           </Nav>
           <div className="d-flex align-items-center">
             {isAuthenticated ? (

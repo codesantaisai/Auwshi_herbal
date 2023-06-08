@@ -2,6 +2,7 @@ import './App.css';
 import Shop from './components/Shop';
 import Home from './components/Home';
 import About from './components/About';
+import Blog from './components/Blog';
 import Footer from './components/layouts/Footer';
 import Header from './components/layouts/Header';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -63,6 +64,9 @@ function App() {
                       <Route path='/' element={<Home/>} />
                       <Route path='/product' element={<Shop/>} />
                       <Route path='/aboutus' element={<About/>}/>
+                      <Route path='/blog' element={<Blog/>}/>
+
+                      
                       
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
