@@ -17,9 +17,14 @@ export default function OrderList() {
     const setOrders = () => {
         const data = {
             columns : [
+                // {
+                //     label: 'ID',
+                //     field: 'id',
+                //     sort: 'asc'
+                // },
                 {
-                    label: 'ID',
-                    field: 'id',
+                    label: 'Order-Id',
+                    field: 'orderId',
                     sort: 'asc'
                 },
                 {
@@ -49,6 +54,7 @@ export default function OrderList() {
         adminOrders.forEach( order => {
             data.rows.push({
                 id: order._id,
+                orderId:order.orderId,
                 noOfItems: order.orderItems.length,
                 amount : `$${order.totalPrice}`,
                 status: <p style={{color: order.orderStatus.includes('Processing') ? 'red' : 'green'}}>{order.orderStatus}</p> ,
