@@ -41,7 +41,7 @@ const Carousel = ()=>{
 
 const Why = ()=>{
   return(
-<div className="projcard-container">
+<div className="projcard-container container-fluid">
   <div className="projcard projcard-blue">
     <div className="projcard-innerbox">
       <img
