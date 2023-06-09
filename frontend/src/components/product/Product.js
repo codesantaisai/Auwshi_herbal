@@ -19,12 +19,14 @@ export default function Product({ product, col }) {
           {product.discount && (
             <span className="product-discount-label">-{product.discount}%</span>
           )}
-          <ul className="product-links">
+            <ul className="product-links">
+            
             <li>
               <a href={`/product/${product._id}`} data-tip="view details">
                 <i className="fa fa-eye"></i>
               </a>
             </li>
+            
           </ul>
         </div>
         <div className="product-content">
@@ -44,10 +46,10 @@ export default function Product({ product, col }) {
           <div className="price">
             {product.discount ? (
               <>
-                <span>${product.price}</span> ${calculateDiscountedPrice(product)}
+                <span>LKR {product.price}</span> ${calculateDiscountedPrice(product)}
               </>
             ) : (
-              <span>${product.price}</span>
+              <span>LKR {product.price}</span>
             )}
           </div>
           <button
