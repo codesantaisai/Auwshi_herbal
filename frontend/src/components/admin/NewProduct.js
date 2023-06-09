@@ -8,6 +8,7 @@ import { toast } from "react-toastify";
 
 export  default function NewProduct () {
     const [name, setName] = useState("");
+    const [productId, setproductId] = useState("");
     const [price, setPrice] = useState("");
     const [description, setDescription] = useState("");
     const [category, setCategory] = useState("");
@@ -53,6 +54,7 @@ export  default function NewProduct () {
         e.preventDefault();
         const formData = new FormData();
         formData.append('name' , name);
+        formData.append('productId' , productId);
         formData.append('price' , price);
         formData.append('stock' , stock);
         formData.append('description' , description);
@@ -105,6 +107,17 @@ export  default function NewProduct () {
                                 className="form-control"
                                 onChange={e => setName(e.target.value)}
                                 value={name}
+                            />
+                            </div>
+
+                            <div className="form-group">
+                            <label htmlFor="name_field">Product-Id</label>
+                            <input
+                                type="text"
+                                id="id_field"
+                                className="form-control"
+                                onChange={e => setproductId(e.target.value)}
+                                value={productId}
                             />
                             </div>
 

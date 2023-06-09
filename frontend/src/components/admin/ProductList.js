@@ -17,9 +17,14 @@ export default function ProductList() {
     const setProducts = () => {
         const data = {
             columns : [
+                // {
+                //     label: 'ID',
+                //     field: 'id',
+                //     sort: 'asc'
+                // },
                 {
-                    label: 'ID',
-                    field: 'id',
+                    label: 'productId',
+                    field:'productId',
                     sort: 'asc'
                 },
                 {
@@ -50,7 +55,12 @@ export default function ProductList() {
             data.rows.push({
                 id: product._id,
                 name: product.name,
+
                 price : `LKR ${product.price}`,
+
+                productId:product.productId,
+                price : `$${product.price}`,
+
                 stock: product.stock,
                 actions: (
                     <Fragment>

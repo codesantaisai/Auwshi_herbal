@@ -16,9 +16,14 @@ export default function UserOrders () {
     const setOrders = () => {
         const data = {
             columns: [
+                // {
+                //     label: "Order ID",
+                //     field: 'id',
+                //     sort: "asc"
+                // },
                 {
                     label: "Order ID",
-                    field: 'id',
+                    field: 'orderId',
                     sort: "asc"
                 },
                 {
@@ -48,6 +53,7 @@ export default function UserOrders () {
         userOrders.forEach(userOrder => {
             data.rows.push({
                 id:  userOrder._id,
+                orderId:  userOrder.orderId,
                 numOfItems: userOrder.orderItems.length,
                 amount: `LKR ${userOrder.totalPrice}`,
                 status: userOrder.orderStatus && userOrder.orderStatus.includes('Delivered') ?

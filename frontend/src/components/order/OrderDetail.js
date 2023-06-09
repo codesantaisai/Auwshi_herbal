@@ -14,6 +14,9 @@ export default function OrderDetail () {
         dispatch(orderDetailAction(id))
     },[id])
 
+    const imageUrls = orderItems.map(item => item.image);
+      console.log(imageUrls);
+
     return (
         <Fragment>
             {   loading ? <Loader/> :
@@ -21,7 +24,9 @@ export default function OrderDetail () {
                     <div className="row d-flex justify-content-between">
                         <div className="col-12 col-lg-8 mt-5 order-details">
     
-                            <h1 className="my-5">Order # {orderDetail._id}</h1>
+                            {/* <h1 className="my-5">Order # {orderDetail._id}</h1> */}
+                            <h1 className="my-5">Order # {orderDetail.orderId}</h1>
+
     
                             <h4 className="mb-4">Shipping Info</h4>
                             <p><b>Name:</b> {user.name}</p>
@@ -47,6 +52,9 @@ export default function OrderDetail () {
                                     <div className="row my-5">
                                         <div className="col-4 col-lg-2">
                                             <img src={item.image} alt={item.name} height="45" width="65" />
+
+
+                                            
                                         </div>
 
                                         <div className="col-5 col-lg-5">

@@ -5,6 +5,7 @@ const ErrorHandler = require('../utils/errorHandler');
 //Create New Order - api/v1/order/new
 exports.newOrder =  catchAsyncError( async (req, res, next) => {
     const {
+        orderId,
         orderItems,
         shippingInfo,
         itemsPrice,
@@ -15,6 +16,7 @@ exports.newOrder =  catchAsyncError( async (req, res, next) => {
     } = req.body;
 
     const order = await Order.create({
+        orderId,
         orderItems,
         shippingInfo,
         itemsPrice,
