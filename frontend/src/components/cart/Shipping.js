@@ -119,7 +119,7 @@ export default function Shipping() {
                                 </select>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="state_field">State</label>
+                                <label htmlFor="state_field">Province</label>
                                 <input
                                     type="text"
                                     id="state_field"

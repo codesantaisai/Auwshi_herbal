@@ -50,11 +50,11 @@ export default function OrderList() {
             data.rows.push({
                 id: order._id,
                 noOfItems: order.orderItems.length,
-                amount : `$${order.totalPrice}`,
+                amount : `LKR ${order.totalPrice}`,
                 status: <p style={{color: order.orderStatus.includes('Processing') ? 'red' : 'green'}}>{order.orderStatus}</p> ,
                 actions: (
                     <Fragment>
-                        <Link to={`/admin/order/${order._id}`} className="btn btn-primary"> <i className="fa fa-pencil"></i></Link>
+                        <Link to={`/admin/order/${order._id}`} className="btn btn-primary"> <i className="fa fa-pen"></i></Link>
                         <Button onClick={e => deleteHandler(e, order._id)} className="btn btn-danger py-1 px-2 ml-2">
                             <i className="fa fa-trash"></i>
                         </Button>

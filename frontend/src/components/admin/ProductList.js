@@ -50,11 +50,11 @@ export default function ProductList() {
             data.rows.push({
                 id: product._id,
                 name: product.name,
-                price : `$${product.price}`,
+                price : `LKR ${product.price}`,
                 stock: product.stock,
                 actions: (
                     <Fragment>
-                        <Link to={`/admin/product/${product._id}`} className="btn btn-primary"> <i className="fa fa-pencil"></i></Link>
+                        <Link to={`/admin/product/${product._id}`} className="btn btn-primary"> <i className="fa fa-pen"></i></Link>
                         <Button onClick={e => deleteHandler(e, product._id)} className="btn btn-danger py-1 px-2 ml-2">
                             <i className="fa fa-trash"></i>
                         </Button>
