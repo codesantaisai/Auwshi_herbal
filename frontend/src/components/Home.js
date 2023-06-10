@@ -74,6 +74,11 @@ const Why = ()=>{
 
 function Viewproduct() {
   return (
+    <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
+    data-wow-delay="0.1s"
+>
+    <h1 className="display-5 mb-3">Our Products</h1>
+    
     <div className="row">
       <div className="col-md-3 col-sm-6">
         <div className="product-grids">
@@ -170,8 +175,64 @@ function Viewproduct() {
         </div>
       </div>
     </div>
+    </div>
   );
 }
+
+// benifits
+function MyComponent(){
+  return(
+    <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
+    data-wow-delay="0.1s">
+      <h1 className="display-5 mb-3">What are the benefits?</h1>
+<div className="row row-cols-1 row-cols-md-3 g-4">
+<div className="col">
+  <div className="card h-100">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" className="card-img-top" alt="Skyscrapers" />
+    <div className="card-body">
+      <h5 className="card-title">Card title</h5>
+      <p className="card-text">
+        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      </p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+<div className="col">
+  <div className="card h-100">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top" alt="Los Angeles Skyscrapers" />
+    <div className="card-body">
+      <h5 className="card-title">Card title</h5>
+      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+<div className="col">
+  <div className="card h-100">
+    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top" alt="Palm Springs Road" />
+    <div className="card-body">
+      <h5 className="card-title">Card title</h5>
+      <p className="card-text">
+        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+      </p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  );
+}
+
+    
+  
 
 
 
@@ -181,6 +242,8 @@ function App (){
        <div>
          <Carousel></Carousel>
          <Why></Why>
+         <MyComponent></MyComponent>
+         <br></br><br></br>
          <Viewproduct/>
        </div>
     );

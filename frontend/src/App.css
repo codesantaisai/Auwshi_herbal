@@ -1207,9 +1207,10 @@ ul.CTAs a {
   }
 
 
+
   /* about us image */
 
-  /* .full-width-image {
+  .full-width-image {
     width: 100%;
     overflow: hidden;
 
@@ -1218,8 +1219,8 @@ ul.CTAs a {
   .full-width-image img {
     width: 100%;
     height: auto;
-  } */
-      .page_head_bg,.post_head_bg{
+  }
+/*       .page_head_bg,.post_head_bg{
         clear:both;
         background-repeat: no-repeat!important;
         background-size: cover!important;
@@ -1235,4 +1236,4 @@ ul.CTAs a {
         height: 300px;
         overflow: hidden;
         text-align: center;
-      }
+      } */
