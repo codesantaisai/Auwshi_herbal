@@ -46,23 +46,20 @@ const Why = ()=>{
     <div className="projcard-innerbox">
       <img
         className="projcard-img"
-        src="https://picsum.photos/800/600?image=1041"
+        src="/images/web.jpg"
       />
       <div className="projcard-textbox">
-        <div className="projcard-title">Card Title</div>
+        <div className="projcard-title">Herbal Product</div>
         <div className="projcard-subtitle">
-          This explains the card in more detail
+          {/* This explains the card in more detail */}
         </div>
         <div className="projcard-bar" />
         <div className="projcard-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals. Our product promotes overall wellness, providing relief from common ailments. With its gentle yet effective formula, it supports the body's natural healing processes. Experience the power of nature with our herbal product.
         </div>
         <div className="projcard-tagbox">
-          <span className="projcard-tag">HTML</span>
-          <span className="projcard-tag">CSS</span>
+          {/* <span className="projcard-tag">HTML</span> */}
+          {/* <span className="projcard-tag">CSS</span> */}
         </div>
       </div>
     </div>
