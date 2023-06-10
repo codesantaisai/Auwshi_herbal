@@ -1,6 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+const Image = () =>{
+  return (
+    <div class="full-width-image conatiner-fluid">
+  <img src="/images/AUWSHI_HERBS.png" alt="Full-width image"/>
+</div>
+  )
+}
 
 const Team = ()=>{
     return (
@@ -383,6 +390,7 @@ const Feature = () => {
 function About(){
     return(
     <div>
+      <Image></Image>
         <Feature></Feature>
         <Contact></Contact>
         <Team></Team>
