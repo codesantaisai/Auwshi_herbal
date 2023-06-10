@@ -1,6 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+const Image = () =>{
+  return (
+    <div class="full-width-image  page_head page_head_bg">
+  <img src="/images/AUWSHI_HERBS.png" alt="Full-width image"/>
+</div>
+  )
+}
 
 const Team = ()=>{
     return (
@@ -161,6 +168,7 @@ const Contact = ()=>{
         data-wow-delay="0.1s"
         style={{ maxWidth: 500 }}
       >
+        
         <h1 className="display-5 mb-3">Contact Us</h1>
         <p>
           Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -285,7 +293,7 @@ const Feature = () => {
       <div className="container">
         <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '500px' }}>
           <h1 className="display-5 mb-3">Our Features</h1>
-          <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+          <p>Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals..</p>
         </div>
         <div className="row g-4">
         <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -303,14 +311,14 @@ const Feature = () => {
           />
           <div className="card-img-overlay d-flex flex-column">
             <div className="card-body">
-              <small className="card-meta mb-2">Thought Leadership</small>
+              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
               <h4 className="card-title mt-0 ">
                 <a className="text-white" herf="#">
-                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                Herbal Product 
                 </a>
               </h4>
               <small>
-                <i className="far fa-clock" /> October 15, 2020
+                <i className="far fa-clock" /> Natural ingredients. No harmful chemicals. Promotes wellness. Relieves ailments. Gentle yet effective. Supports natural healing. Harness the power of nature.
               </small>
             </div>
 
@@ -332,14 +340,14 @@ const Feature = () => {
           />
           <div className="card-img-overlay d-flex flex-column">
             <div className="card-body">
-              <small className="card-meta mb-2">Thought Leadership</small>
+              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
               <h4 className="card-title mt-0 ">
                 <a className="text-white" herf="#">
-                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                Natural Process
                 </a>
               </h4>
               <small>
-                <i className="far fa-clock" /> October 15, 2020
+                <i className="far fa-clock" /> Natural processes are the inherent mechanisms by which nature functions. They encompass various phenomena like photosynthesis, erosion, and ecological interactions, crucial for maintaining the balance and sustainability of ecosystems without human intervention.
               </small>
             </div>
 
@@ -351,24 +359,24 @@ const Feature = () => {
           className="card text-white card-has-bg click-col"
           style={{
             backgroundImage:
-              'url("https://source.unsplash.com/600x900/?tech,street")'
+              'url("https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg")'
           }}
         >
           <img
             className="card-img d-none"
-            src="https://source.unsplash.com/600x900/?tech,street"
+            src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg"
             alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
           />
           <div className="card-img-overlay d-flex flex-column">
             <div className="card-body">
-              <small className="card-meta mb-2">Thought Leadership</small>
+              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
               <h4 className="card-title mt-0 ">
                 <a className="text-white" herf="#">
-                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                Biologically Safe
                 </a>
               </h4>
               <small>
-                <i className="far fa-clock" /> October 15, 2020
+                <i className="far fa-clock" /> Biologically safe refers to products or substances that are non-toxic and pose no harm or adverse effects on living organisms, including humans and the environment. They are designed to be compatible and safe for biological systems.
               </small>
             </div>
           </div>
@@ -383,6 +391,7 @@ const Feature = () => {
 function About(){
     return(
     <div>
+      <Image></Image>
         <Feature></Feature>
         <Contact></Contact>
         <Team></Team>
