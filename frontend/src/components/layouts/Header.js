@@ -24,7 +24,7 @@ function Header() {
         <Container>
           <div className="navbar navbar-brand">
             <Link to="/">
-              <img id='logo' width="100px" alt='Auwshi Logo' src="/images/logo.png" />
+              <img id='logo' width="100px" alt='Auwshi Logo' src="/images/Auwshi.png" />
             </Link>
           </div>
           <Nav className="me-auto">
@@ -40,7 +40,7 @@ function Header() {
                   <figure className='avatar avatar-nav'>
                     <Image width="50px" src={user.avatar ?? './images/default_avatar.png'} />
                   </figure>
-                  <span>{user.name}</span>
+                  <span className='text-light'>{user.name}</span>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   {user.role === 'admin' && <Dropdown.Item onClick={() => { navigate('admin/dashboard') }} className='text-dark'>Dashboard</Dropdown.Item>}
