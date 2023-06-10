@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 const Image = () =>{
   return (
-    <div class="full-width-image">
+    <div class="full-width-image  page_head page_head_bg">
   <img src="/images/AUWSHI_HERBS.png" alt="Full-width image"/>
 </div>
   )
@@ -168,6 +168,7 @@ const Contact = ()=>{
         data-wow-delay="0.1s"
         style={{ maxWidth: 500 }}
       >
+        
         <h1 className="display-5 mb-3">Contact Us</h1>
         <p>
           Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
