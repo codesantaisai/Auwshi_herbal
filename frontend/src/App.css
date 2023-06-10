@@ -7,7 +7,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   margin-top: 33px;
-  background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg");
+  background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg") ;
   
 
 }
@@ -31,7 +31,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.254);
+  background-color:black;
   padding: 1rem 1rem;
 }
 
@@ -1016,7 +1016,7 @@ body {
 .product-grids{
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  border: 1px solid #e7e7e7;
+  border: 2px solid #e7e7e738;
 }
 .product-grids .product-images{ position: relative; }
 .product-grids .product-images a.images{ display: block; }

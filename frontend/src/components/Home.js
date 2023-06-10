@@ -124,6 +124,54 @@ function Viewproduct() {
           </div>
         </div>
       </div>
+      <div className="col-md-3 col-sm-6">
+        <div className="product-grids">
+          <div className="product-images">
+            <a href="#" className="images">
+              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 2" />
+            </a>
+            <ul className="product-link">
+              <li>
+                <a href="/product">
+                  <i className="fa fa-eye"></i>View products
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="product-contents">
+            <h3 className="titles">
+              <a href="#">Tooth Powder</a>
+            </h3>
+            
+            <div className="prices">LKR 100.00</div>
+            
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3 col-sm-6">
+        <div className="product-grids">
+          <div className="product-images">
+            <a href="#" className="images">
+              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 2" />
+            </a>
+            <ul className="product-link">
+              <li>
+                <a href="/product">
+                  <i className="fa fa-eye"></i>View products
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="product-contents">
+            <h3 className="titles">
+              <a href="#">Tooth Powder</a>
+            </h3>
+            
+            <div className="prices">LKR 100.00</div>
+            
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
