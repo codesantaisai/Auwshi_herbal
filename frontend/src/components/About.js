@@ -1,8 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import MyMapComponent from './MyMapComponent';
-
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 const Image = () =>{
   return (
@@ -11,12 +8,6 @@ const Image = () =>{
 </div>
   )
 }
-// google map
-
-    
-
-
-// google map end
 
 const Team = ()=>{
     return (
@@ -286,11 +277,6 @@ const Contact = ()=>{
                 >
                   Send Message
                 </button>
-                <br></br>
-                <div>
-                  <MyMapComponent />
-                </div>
-    
               </div>
             </div>
           </form>
