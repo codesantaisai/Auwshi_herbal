@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 const Image = () =>{
   return (
-    <div class="full-width-image conatiner-fluid">
+    <div class="full-width-image">
   <img src="/images/AUWSHI_HERBS.png" alt="Full-width image"/>
 </div>
   )
