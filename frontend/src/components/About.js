@@ -279,9 +279,111 @@ const Contact = ()=>{
   )
 }
 
+const Feature = () => {
+  return (
+    <div className=" bg-icon my-5 py-6">
+      <div className="container">
+        <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '500px' }}>
+          <h1 className="display-5 mb-3">Our Features</h1>
+          <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        </div>
+        <div className="row g-4">
+        <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div
+          className="card text-white card-has-bg click-col"
+          style={{
+            backgroundImage:
+              'url("https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528")'
+          }}
+        >
+          <img
+            className="card-img d-none"
+            src="https://source.unsplash.com/600x900/?tech,street"
+            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+          />
+          <div className="card-img-overlay d-flex flex-column">
+            <div className="card-body">
+              <small className="card-meta mb-2">Thought Leadership</small>
+              <h4 className="card-title mt-0 ">
+                <a className="text-white" herf="#">
+                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                </a>
+              </h4>
+              <small>
+                <i className="far fa-clock" /> October 15, 2020
+              </small>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div
+          className="card text-white card-has-bg click-col"
+          style={{
+            backgroundImage:
+              'url("https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg")'
+          }}
+        >
+          <img
+            className="card-img d-none"
+            src="https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg"
+            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+          />
+          <div className="card-img-overlay d-flex flex-column">
+            <div className="card-body">
+              <small className="card-meta mb-2">Thought Leadership</small>
+              <h4 className="card-title mt-0 ">
+                <a className="text-white" herf="#">
+                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                </a>
+              </h4>
+              <small>
+                <i className="far fa-clock" /> October 15, 2020
+              </small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div
+          className="card text-white card-has-bg click-col"
+          style={{
+            backgroundImage:
+              'url("https://source.unsplash.com/600x900/?tech,street")'
+          }}
+        >
+          <img
+            className="card-img d-none"
+            src="https://source.unsplash.com/600x900/?tech,street"
+            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+          />
+          <div className="card-img-overlay d-flex flex-column">
+            <div className="card-body">
+              <small className="card-meta mb-2">Thought Leadership</small>
+              <h4 className="card-title mt-0 ">
+                <a className="text-white" herf="#">
+                  Goverment Lorem Ipsum Sit Amet Consectetur dipisi?
+                </a>
+              </h4>
+              <small>
+                <i className="far fa-clock" /> October 15, 2020
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 function About(){
     return(
     <div>
+        <Feature></Feature>
         <Contact></Contact>
         <Team></Team>
     </div>
