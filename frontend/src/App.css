@@ -7,9 +7,10 @@ body {
   padding: 0px;
   overflow-x: hidden;
   margin-top: 33px;
-  background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg") ;
+  /* background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg") ; */
+  margin-top: 49px;
+  background: linear-gradient(to right, #e8cbc0, #9967036a);
   
-
 }
 
 /* Scroll Bar */
@@ -31,9 +32,10 @@ body {
 }
 
 nav {
-  margin-top: -15px !important;
-  background-color:#a8b89e;
+  /* margin-top: -15px !important; */
+  background-color:rgba(255, 255, 255, 0.584);
   padding: 1rem 1rem;
+  margin-bottom: -50px !important;
 }
 .nav-link{
   color:#584027 !important;
@@ -673,8 +675,12 @@ ul.CTAs a {
 .container-xxl {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   background-color: #00000026;
+  
 }
-
+.col-lg-5{
+background-color: #693e0c6a;
+margin-bottom: 15px;
+}
 /* Why */
 
 .projcard-container {
@@ -1028,9 +1034,10 @@ ul.CTAs a {
 /* shop css end */
 /* home product */
 .product-grids{
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   text-align: center;
-  border: 2px solid #e7e7e738;
+  border: 2px solid #104401bc;
+  border-radius: 20px;
 }
 .product-grids .product-images{ position: relative; }
 .product-grids .product-images a.images{ display: block; }
@@ -1039,6 +1046,7 @@ ul.CTAs a {
   height: auto;
   transition: all 0.3s ease 0s;
   border-radius: 20px;
+
 }
 .product-grids .product-images:hover img{ transform: translate(10px,-10px); }
 .product-grids .product-sale-label{
@@ -1101,10 +1109,10 @@ ul.CTAs a {
   text-transform: capitalize;
   padding: 0 10px 14px;
   margin: 0 0 7px;
-  border-bottom: 1px solid #dfe5e9;
+  border-bottom: 1px solid #104401bc;
 }
 .product-grids .titles a{
-  color: #000;
+  color: #584027;
   transition: all 0.3s ease 0s;
 }
 .product-grids .titles a:hover{ animation: color-animate 5s infinite linear; }
