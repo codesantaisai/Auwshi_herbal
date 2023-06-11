@@ -1166,7 +1166,7 @@ ul.CTAs a {
 .card-action:hover {
   color: #fff;
   background: #E26D5C;
-  -webkit-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 .card-heading {
@@ -1199,7 +1199,7 @@ ul.CTAs a {
 
 }
 
-@-webkit-keyframes pulse {
+@keyframes pulse {
   0% {
       -moz-transform: scale(0.9);
       -ms-transform: scale(0.9);
