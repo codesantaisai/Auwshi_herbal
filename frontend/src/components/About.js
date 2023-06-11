@@ -6,6 +6,8 @@ import Map from './Map';
 
 
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+
 const Image = () =>{
   return (
     <div class="full-width-image  page_head page_head_bg">

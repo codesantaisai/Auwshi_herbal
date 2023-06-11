@@ -687,9 +687,9 @@ ul.CTAs a {
   box-sizing: border-box;
 }
 .projcard-container {
-  margin-left:0px;
+  margin-left:-17px;
   margin-right:0px;
-  width: 1000px;
+  width: 1142px;
 }
 .projcard {
   position: relative;
