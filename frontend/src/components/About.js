@@ -315,80 +315,50 @@ const Contact = ()=>{
 }
 
 
+
 const Feature = () => {
   return (
-    <div className="container" style={{ marginTop: '50px' }}>
+    <div className="container mt-2">
       <div className="row">
-        <div className="col-md-3">
-          <div className="card-sl">
-            <div className="card-image">
-              <img
-                src="https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528"
-                alt="Audi Q8"
-              />
-            </div>
-
-            <a className="card-action" href="#">
-              <i className="fa fa-heart"></i>
-            </a>
-            <div className="card-heading">Audi Q8</div>
-            <div className="card-text">
-              
-            </div>
-            <div className="card-text">$67,400</div>
-            <a href="#" className="card-button">
-              Purchase
-            </a>
+        <div className="col-md-3 col-sm-6">
+          <div className="card card-block">
+            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
+            <h5 className="card-title mt-3 mb-3">Sierra Web Development • Owner</h5>
+            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card-sl">
-            <div className="card-image">
-              <img
-                src="https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg"
-                alt="Audi Q8"
-              />
-            </div>
-
-            <a className="card-action" href="#">
-              <i className="fa fa-heart"></i>
-            </a>
-            <div className="card-heading">Audi Q8</div>
-            <div className="card-text">
-              
-            </div>
-            <div className="card-text">$67,400</div>
-            <a href="#" className="card-button">
-              Purchase
-            </a>
+        <div className="col-md-3 col-sm-6">
+          <div className="card card-block">
+            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
+            <p className="card-text">This is a company that builds websites, web.</p>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="card-sl">
-            <div className="card-image">
-              <img
-                src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg"
-                alt="Audi Q8"
-              />
-            </div>
-
-            <a className="card-action" href="#">
-              <i className="fa fa-heart"></i>
-            </a>
-            <div className="card-heading">Audi Q8</div>
-            <div className="card-text">
-              
-            </div>
-            <div className="card-text">$67,400</div>
-            <a href="#" className="card-button">
-              Purchase
-            </a>
+        <div className="col-md-3 col-sm-6">
+          <div className="card card-block">
+            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset" />
+            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
+            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6">
+          <div className="card card-block">
+            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
+            <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset" />
+            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
+            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
+
+
 
 function About(){
     return(
