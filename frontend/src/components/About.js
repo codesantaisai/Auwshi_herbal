@@ -176,45 +176,49 @@ const Contact = ()=>{
         </p>
       </div>
       <div className="row g-5 justify-content-center">
-        <div className="col-lg-5 col-md-12 wow fadeInUp " data-wow-delay="0.1s">
+        <div className=" col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
           
           <form>
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="name">Your Name</label>
                   <input
                     type="text"
                     className="form-control"
                     id="name"
                     placeholder="Your Name"
                   />
-                  <label htmlFor="name">Your Name</label>
+                  
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="email">Your Email</label>
                   <input
                     type="email"
                     className="form-control"
                     id="email"
                     placeholder="Your Email"
                   />
-                  <label htmlFor="email">Your Email</label>
+                 
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="subject">Subject</label>
                   <input
                     type="text"
                     className="form-control"
                     id="subject"
                     placeholder="Subject"
                   />
-                  <label htmlFor="subject">Subject</label>
+                 
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="message">Message</label>
                   <textarea
                     className="form-control"
                     placeholder="Leave a message here"
@@ -222,7 +226,7 @@ const Contact = ()=>{
                     style={{ height: 200 }}
                     defaultValue={""}
                   />
-                  <label htmlFor="message">Message</label>
+                  
                 </div>
               </div>
               <div className="col-12">
@@ -236,7 +240,7 @@ const Contact = ()=>{
             </div>
           </form>
         </div>
-        <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+        <div className="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
           
           <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
             <h5 className="text-white">Call Us</h5>
