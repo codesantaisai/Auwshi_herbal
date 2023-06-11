@@ -318,101 +318,76 @@ const Contact = ()=>{
   )
 }
 
+
 const Feature = () => {
   return (
-    <div className=" bg-icon my-5 py-6">
-      <div className="container">
-        <div className="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '500px' }}>
-          <h1 className="display-5 mb-3">Our Features</h1>
-          <p>Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals..</p>
-        </div>
-        <div className="row g-4">
-        <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-        <div
-          className="card text-white card-has-bg click-col"
-          style={{
-            backgroundImage:
-              'url("https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528")'
-          }}
-        >
-          <img
-            className="card-img d-none"
-            src="https://source.unsplash.com/600x900/?tech,street"
-            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
-          />
-          <div className="card-img-overlay d-flex flex-column">
-            <div className="card-body">
-              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
-              <h4 className="card-title mt-0 ">
-                <a className="text-white" herf="#">
-                Herbal Product 
-                </a>
-              </h4>
-              <small>
-                <i className="far fa-clock" /> Natural ingredients. No harmful chemicals. Promotes wellness. Relieves ailments. Gentle yet effective. Supports natural healing. Harness the power of nature.
-              </small>
+    <div className="container" style={{ marginTop: '50px' }}>
+      <div className="row">
+        <div className="col-md-3">
+          <div className="card-sl">
+            <div className="card-image">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528"
+                alt="Audi Q8"
+              />
             </div>
 
+            <a className="card-action" href="#">
+              <i className="fa fa-heart"></i>
+            </a>
+            <div className="card-heading">Audi Q8</div>
+            <div className="card-text">
+              
+            </div>
+            <div className="card-text">$67,400</div>
+            <a href="#" className="card-button">
+              Purchase
+            </a>
           </div>
         </div>
-        </div>
-      <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-        <div
-          className="card text-white card-has-bg click-col"
-          style={{
-            backgroundImage:
-              'url("https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg")'
-          }}
-        >
-          <img
-            className="card-img d-none"
-            src="https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg"
-            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
-          />
-          <div className="card-img-overlay d-flex flex-column">
-            <div className="card-body">
-              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
-              <h4 className="card-title mt-0 ">
-                <a className="text-white" herf="#">
-                Natural Process
-                </a>
-              </h4>
-              <small>
-                <i className="far fa-clock" /> Natural processes are the inherent mechanisms by which nature functions. They encompass various phenomena like photosynthesis, erosion, and ecological interactions, crucial for maintaining the balance and sustainability of ecosystems without human intervention.
-              </small>
+        <div className="col-md-3">
+          <div className="card-sl">
+            <div className="card-image">
+              <img
+                src="https://blog.mountainroseherbs.com/hs-fs/hubfs/Blog%20images/Herbs%20for%20Skincare.jpg?width=600&name=Herbs%20for%20Skincare.jpg"
+                alt="Audi Q8"
+              />
             </div>
 
-          </div>
-        </div>
-      </div>
-      <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-        <div
-          className="card text-white card-has-bg click-col"
-          style={{
-            backgroundImage:
-              'url("https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg")'
-          }}
-        >
-          <img
-            className="card-img d-none"
-            src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg"
-            alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
-          />
-          <div className="card-img-overlay d-flex flex-column">
-            <div className="card-body">
-              {/* <small className="card-meta mb-2">Thought Leadership</small> */}
-              <h4 className="card-title mt-0 ">
-                <a className="text-white" herf="#">
-                Biologically Safe
-                </a>
-              </h4>
-              <small>
-                <i className="far fa-clock" /> Biologically safe refers to products or substances that are non-toxic and pose no harm or adverse effects on living organisms, including humans and the environment. They are designed to be compatible and safe for biological systems.
-              </small>
+            <a className="card-action" href="#">
+              <i className="fa fa-heart"></i>
+            </a>
+            <div className="card-heading">Audi Q8</div>
+            <div className="card-text">
+              
             </div>
+            <div className="card-text">$67,400</div>
+            <a href="#" className="card-button">
+              Purchase
+            </a>
           </div>
         </div>
-      </div>
+        <div className="col-md-3">
+          <div className="card-sl">
+            <div className="card-image">
+              <img
+                src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg"
+                alt="Audi Q8"
+              />
+            </div>
+
+            <a className="card-action" href="#">
+              <i className="fa fa-heart"></i>
+            </a>
+            <div className="card-heading">Audi Q8</div>
+            <div className="card-text">
+              
+            </div>
+            <div className="card-text">$67,400</div>
+            <a href="#" className="card-button">
+              Purchase
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -424,6 +399,7 @@ function About(){
     <div>
       <Image></Image>
         <Feature></Feature>
+        <br></br> <br></br>
         <Contact></Contact>
         <br></br> <br></br>
         <Map></Map>
