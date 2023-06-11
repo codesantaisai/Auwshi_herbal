@@ -7,7 +7,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   margin-top: 33px;
-  /* background-image: url("https://ayush.lk/wp-content/themes/twentytwenty/images/main-bg-new.jpg") ; */
+  
   margin-top: 49px;
   background: linear-gradient(to right, #e8cbc0, #9967036a);
   
@@ -32,7 +32,6 @@ body {
 }
 
 nav {
-  /* margin-top: -15px !important; */
   background-color:rgba(255, 255, 255, 0.584);
   padding: 1rem 1rem;
   margin-bottom: -50px !important;
