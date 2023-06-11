@@ -667,6 +667,13 @@ ul.CTAs a {
     text-decoration: none;
     color: #555;
 }
+.bg-white{
+  box-shadow: 10px 5px 5px rgb(37, 116, 3) !important;
+}
+.container-xxl {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #00000026;
+}
 
 /* Why */
 
