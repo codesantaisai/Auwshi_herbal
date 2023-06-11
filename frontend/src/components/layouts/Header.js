@@ -24,7 +24,7 @@ function Header() {
         <Container>
           <div className="navbar navbar-brand">
             <Link to="/">
-              <img id='logo' width="100px" alt='Auwshi Logo' src="/images/Auwshi.png" />
+              <img id='logo' width="250px"  alt='Auwshi-Herbs.png' src="/images/Herbs.png" />
             </Link>
           </div>
           <Nav className="me-auto">
