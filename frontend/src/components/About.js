@@ -14,9 +14,9 @@ const Team = ()=>{
         <>
   {/* For demo purpose */}
   <div className="container py-5">
-    <div className="row text-center text-white">
+    <div className="row text-center text-dark">
       <div className="col-lg-8 mx-auto">
-        <h1 className="display-4">Team Page</h1>
+        <h1 className="display-5 mb-3">Team Page</h1>
       </div>
     </div>
   </div>
@@ -177,52 +177,7 @@ const Contact = ()=>{
       </div>
       <div className="row g-5 justify-content-center">
         <div className="col-lg-5 col-md-12 wow fadeInUp " data-wow-delay="0.1s">
-          <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
-            <h5 className="text-white">Call Us</h5>
-            <p className="mb-5">
-              <i className="fa fa-phone-alt me-3" />
-              +947 7644 3471
-            </p>
-            <h5 className="text-white">Email Us</h5>
-            <p className="mb-5">
-              <i className="fa fa-envelope me-3" />
-              auwshiherbs@gmail.com
-            </p>
-            <h5 className="text-white">Office Address</h5>
-            <p className="mb-5">
-              <i className="fa fa-map-marker-alt me-3" />
-             Vikneshwara road,  Chankanai , Jaffna 
-            </p>
-            <h5 className="text-white">Follow Us</h5>
-            <div className="d-flex pt-2">
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-twitter" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-youtube" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-0"
-                href=""
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+          
           <form>
             <div className="row g-3">
               <div className="col-md-6">
@@ -280,6 +235,53 @@ const Contact = ()=>{
               </div>
             </div>
           </form>
+        </div>
+        <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+          
+          <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
+            <h5 className="text-white">Call Us</h5>
+            <p className="mb-5">
+              <i className="fa fa-phone-alt me-3" />
+              +947 7644 3471
+            </p>
+            <h5 className="text-white">Email Us</h5>
+            <p className="mb-5">
+              <i className="fa fa-envelope me-3" />
+              auwshiherbs@gmail.com
+            </p>
+            <h5 className="text-white">Office Address</h5>
+            <p className="mb-5">
+              <i className="fa fa-map-marker-alt me-3" />
+             Vikneshwara road,  Chankanai , Jaffna 
+            </p>
+            <h5 className="text-white">Follow Us</h5>
+            <div className="d-flex pt-2">
+              <a
+                className="btn btn-square btn-outline-light rounded-circle me-1"
+                href=""
+              >
+                <i className="fab fa-twitter" />
+              </a>
+              <a
+                className="btn btn-square btn-outline-light rounded-circle me-1"
+                href=""
+              >
+                <i className="fab fa-facebook-f" />
+              </a>
+              <a
+                className="btn btn-square btn-outline-light rounded-circle me-1"
+                href=""
+              >
+                <i className="fab fa-youtube" />
+              </a>
+              <a
+                className="btn btn-square btn-outline-light rounded-circle me-0"
+                href=""
+              >
+                <i className="fab fa-linkedin-in" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
