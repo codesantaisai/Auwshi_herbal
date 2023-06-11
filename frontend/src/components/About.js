@@ -207,39 +207,43 @@ const Contact = ()=>{
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="name">Your Name</label>
                   <input
                     type="text"
                     className="form-control"
                     id="name"
                     placeholder="Your Name"
                   />
-                  <label htmlFor="name">Your Name</label>
+                  
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="email">Your Email</label>
                   <input
                     type="email"
                     className="form-control"
                     id="email"
                     placeholder="Your Email"
                   />
-                  <label htmlFor="email">Your Email</label>
+                  
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="subject">Subject</label>
                   <input
                     type="text"
                     className="form-control"
                     id="subject"
                     placeholder="Subject"
                   />
-                  <label htmlFor="subject">Subject</label>
+                  
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="message">Message</label>
                   <textarea
                     className="form-control"
                     placeholder="Leave a message here"
@@ -247,9 +251,10 @@ const Contact = ()=>{
                     style={{ height: 200 }}
                     defaultValue={""}
                   />
-                  <label htmlFor="message">Message</label>
+                  
                 </div>
               </div>
+              <br></br>
               <div className="col-12">
                 <button
                   className="btn btn-warning rounded-pill py-3 px-5 submit-btn"
@@ -325,7 +330,7 @@ function Feature(){
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">
-    <img src="https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528" />
+    <img id="figure" src="https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528" />
     <div className="card-body">
       <h5 className="card-title">Herbal Product</h5>
       <p className="card-text">
@@ -339,7 +344,7 @@ function Feature(){
 </div>
 <div className="col">
   <div className="card h-100">
-    <img   src="https://blog.mountainroseherbs.com/hubfs/Blog%20images/Herbs%20for%20Skincare%20Banner.jpg" />
+    <img  id="figure" src="https://blog.mountainroseherbs.com/hubfs/Blog%20images/Herbs%20for%20Skincare%20Banner.jpg" />
     <div className="card-body">
       <h5 className="card-title">Natural Process</h5>
       <p className="card-text">Natural processes are the inherent mechanisms by which nature functions. They encompass various phenomena like photosynthesis, erosion, and ecological interactions, crucial for maintaining the balance and sustainability of ecosystems without human intervention.</p>
@@ -351,7 +356,7 @@ function Feature(){
 </div>
 <div className="col">
   <div className="card h-100">
-    <img src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg" />
+    <img id="figure" src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg" />
     <div className="card-body">
       <h5 className="card-title">Biologically Safe</h5>
       <p className="card-text">
@@ -376,11 +381,13 @@ function About(){
     return(
     <div>
       <Image></Image>
+      <br></br> <br></br>
         <Feature></Feature>
         <br></br> <br></br>
         <Contact></Contact>
-        <br></br> <br></br>
+        <br></br> 
         <Map></Map>
+        <br></br> <br></br>
         <Team></Team>
     </div>
       
