@@ -34,8 +34,8 @@ body {
 }
 
 nav {
-  background-color:rgba(255, 255, 255, 0.584);
-
+  margin-top: -15px !important;
+  background-color:#a8b89e;
   padding: 1rem 1rem;
 }
 .nav-link{
@@ -1031,9 +1031,10 @@ ul.CTAs a {
 /* shop css end */
 /* home product */
 .product-grids{
-  font-family: 'Poppins', sans-serif;
+  
   text-align: center;
   border: 2px solid #e7e7e738;
+  border-radius: 20px;
 }
 .product-grids .product-images{ position: relative; }
 .product-grids .product-images a.images{ display: block; }
