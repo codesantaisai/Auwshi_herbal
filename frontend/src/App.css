@@ -1038,6 +1038,7 @@ ul.CTAs a {
   width: 100%;
   height: auto;
   transition: all 0.3s ease 0s;
+  border-radius: 20px;
 }
 .product-grids .product-images:hover img{ transform: translate(10px,-10px); }
 .product-grids .product-sale-label{
