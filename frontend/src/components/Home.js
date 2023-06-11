@@ -84,7 +84,7 @@ function Viewproduct() {
         <div className="product-grids">
           <div className="product-images">
             <a href="#" className="images">
-              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 1" />
+              <img className="pic-1" src="/images/09.jpg" />
             </a>
             <ul className="product-link">
               <li>
@@ -96,7 +96,7 @@ function Viewproduct() {
           </div>
           <div className="product-contents">
             <h3 className="titles">
-              <a href="#">Tooth powder</a>
+              <a href="#">Hair Oil</a>
             </h3>
             <div className="prices">LKR 100.00</div>
           </div>
@@ -106,7 +106,7 @@ function Viewproduct() {
         <div className="product-grids">
           <div className="product-images">
             <a href="#" className="images">
-              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 2" />
+              <img className="pic-1" src="/images/404.jpg" alt="Product 2" />
             </a>
             <ul className="product-link">
               <li>
@@ -130,7 +130,7 @@ function Viewproduct() {
         <div className="product-grids">
           <div className="product-images">
             <a href="#" className="images">
-              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 2" />
+              <img className="pic-1" src="/images/14.jpg" alt="Product 2" />
             </a>
             <ul className="product-link">
               <li>
@@ -142,7 +142,7 @@ function Viewproduct() {
           </div>
           <div className="product-contents">
             <h3 className="titles">
-              <a href="#">Tooth Powder</a>
+              <a href="#">Hair Powder</a>
             </h3>
             
             <div className="prices">LKR 100.00</div>
@@ -154,7 +154,7 @@ function Viewproduct() {
         <div className="product-grids">
           <div className="product-images">
             <a href="#" className="images">
-              <img className="pic-1" src="/images/products/toothpowder.jpg" alt="Product 2" />
+              <img className="pic-1" src="/images/ger.jpeg" alt="Product 2" />
             </a>
             <ul className="product-link">
               <li>
@@ -166,7 +166,7 @@ function Viewproduct() {
           </div>
           <div className="product-contents">
             <h3 className="titles">
-              <a href="#">Tooth Powder</a>
+              <a href="#">Dry Ginger</a>
             </h3>
             
             <div className="prices">LKR 100.00</div>
@@ -184,46 +184,46 @@ function MyComponent(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3">What are the benefits?</h1>
+      <h1 className="display-5 mb-3">What are the benefits in AUWSHI product? </h1>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" className="card-img-top" alt="Skyscrapers" />
+    <img src="https://media.istockphoto.com/id/1149801914/photo/facial-body-cosmetic-products-leaves-and-flowers-blossom-on-white-desktop-background-whith.jpg?s=612x612&w=0&k=20&c=VPKLROvVYuwyzjKqESCw4lMbPtZaYIjPo71UhbHg_I4=" />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
+      <h5 className="card-title">Natural and Organic</h5>
       <p className="card-text">
-        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      Herbal products are often considered more natural and organic compared to synthetic medications. 
       </p>
     </div>
-    <div className="card-footer">
+    {/* <div className="card-footer">
       <small className="text-muted">Last updated 3 mins ago</small>
-    </div>
+    </div> */}
   </div>
 </div>
 <div className="col">
   <div className="card h-100">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" className="card-img-top" alt="Los Angeles Skyscrapers" />
+    <img src="https://www.perfect365.com/wp-content/uploads/shutterstock_486713719.jpg" />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">Fewer Side Effects</h5>
+      <p className="card-text">Herbal products are generally believed to have fewer side effects compared to synthetic drugs</p>
     </div>
-    <div className="card-footer">
+    {/* <div className="card-footer">
       <small className="text-muted">Last updated 3 mins ago</small>
-    </div>
+    </div> */}
   </div>
 </div>
 <div className="col">
   <div className="card h-100">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" className="card-img-top" alt="Palm Springs Road" />
+    <img src="https://img.freepik.com/premium-photo/flat-lay-composition-with-cosmetic-products-natural-organic-botany-alternative-herb-medicine-natural-skin-care-beauty-products-creation-natural-cosmetics-mortar_121946-593.jpg" />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
+      <h5 className="card-title">Potential Health Benefits</h5>
       <p className="card-text">
-        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+      Different herbal products are believed to have various health benefits.
       </p>
     </div>
-    <div className="card-footer">
+    {/* <div className="card-footer">
       <small className="text-muted">Last updated 3 mins ago</small>
-    </div>
+    </div> */}
   </div>
 </div>
 </div>
