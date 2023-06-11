@@ -1,12 +1,30 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-import Map from './Map';
-
-
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-<link href="css/bootstrap.min.css" rel="stylesheet"/>
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+
+const Map = () => {
+    const mapStyles = {
+      height: '400px',
+      width: '100%',
+    };
+  
+    const defaultCenter = {
+      lat: 9.760509, // Replace with your factory's latitude
+      lng: 79.971550 // Replace with your factory's longitude
+    };
+  
+    return (
+      <LoadScript googleMapsApiKey="AIzaSyAJCBXRLXtGxYFzLM4fjdKUeUQgczb_gQw">
+        <GoogleMap mapContainerStyle={mapStyles} zoom={13} center={defaultCenter}>
+          <Marker position={defaultCenter} />
+        </GoogleMap>
+      </LoadScript>
+    );
+  };
+
+
+
 
 const Image = () =>{
   return (
@@ -239,13 +257,6 @@ const Contact = ()=>{
                 >
                   Send Message
                 </button>
-
-                <br></br>
-                <div>
-                  <Map />
-                </div>
-    
-
               </div>
             </div>
           </form>
@@ -410,6 +421,8 @@ function About(){
       <Image></Image>
         <Feature></Feature>
         <Contact></Contact>
+        <br></br> <br></br>
+        <Map></Map>
         <Team></Team>
     </div>
       
