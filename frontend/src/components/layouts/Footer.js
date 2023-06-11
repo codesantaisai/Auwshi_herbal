@@ -40,6 +40,8 @@ export  default function Footer (){
     >
       <i className="fab fa-linkedin-in" />
     </a>
+
+
    </div>
   </div>
 </div>
