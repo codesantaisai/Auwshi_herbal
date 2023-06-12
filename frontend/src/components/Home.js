@@ -49,12 +49,14 @@ const Why = ()=>{
         src="/images/web.jpg"
       />
       <div className="projcard-textbox">
-        <div className="projcard-title">Herbal Product</div>
+        <div className="projcard-title"><h1 className="underline-heading">Herbal Product</h1>
+</div>
         <div className="projcard-subtitle">
           {/* This explains the card in more detail */}
         </div>
         <div className="projcard-bar" />
         <div className="projcard-description">
+          
           Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals. Our product promotes overall wellness, providing relief from common ailments. With its gentle yet effective formula, it supports the body's natural healing processes. Experience the power of nature with our herbal product.
         </div>
         <div className="projcard-tagbox">
@@ -77,7 +79,7 @@ function Viewproduct() {
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s"
 >
-    <h1 className="display-5 mb-3">Our Products</h1>
+    <h1 className="display-5 mb-3 underline-heading">Our Products</h1>
     
     <div className="row">
       <div className="col-md-3 col-sm-6">
@@ -184,7 +186,7 @@ function MyComponent(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3">What are the benefits in AUWSHI product? </h1>
+      <h1 className="display-5 mb-3 underline-heading">What are the benefits in AUWSHI product? </h1>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">
