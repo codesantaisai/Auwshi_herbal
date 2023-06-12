@@ -52,8 +52,7 @@ const CustomerBlog = () => {
                 <div className="projcard-bar"></div>
                 <div className="projcard-description">{blog.content}</div>
                 <div className="projcard-tagbox">
-                  <span className="projcard-tag">hello</span>
-                  <span className="projcard-tag">comrade</span>
+
                 </div>
               </div>
             </div>
