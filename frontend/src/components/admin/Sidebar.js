@@ -29,6 +29,10 @@ export default function Sidebar () {
                 <li>
                     <Link to="/admin/users"><i className="fa fa-users"></i> Users</Link>
                 </li>
+                
+                <li>
+                    <Link to="/admin/blogs"><i className="fa fa-users"></i> creatBlog</Link>
+                </li>
 
                 <li>
                     <Link to="/admin/reviews"><i className="fa fa-users"></i> Reviews</Link>
