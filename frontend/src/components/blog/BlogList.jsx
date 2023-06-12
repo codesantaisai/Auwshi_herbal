@@ -64,10 +64,12 @@ const BlogsList = () => {
                     </div>
                     <div className="projcard-bar"></div>
                     <div className="projcard-description">{blog.content}</div>
+
                     <div className="projcard-tagbo">
                       <span className="projcard-ta">
                         <Link
                           to={`/blogs/${blog._id}`}
+
                           style={{ textDecoration: "none" }}
                         >
                           <Button
@@ -80,6 +82,7 @@ const BlogsList = () => {
                         </Link>
                       </span>
                       <span className="projcard-ta">
+
                         <Button
                           variant="contained"
                           color="secondary"
