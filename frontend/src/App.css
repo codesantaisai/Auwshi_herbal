@@ -6,9 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  margin-top: 33px;
-  
-  margin-top: 49px;
+  margin-top: 50px; 
   background: linear-gradient(to right, #e8cbc0, #9967036a);
 
   
@@ -34,8 +32,8 @@ body {
 }
 
 nav {
-  background-color:rgba(255, 255, 255, 0.584);
-
+  margin-top: -15px !important;
+  background-color:#a8b89e;
   padding: 1rem 1rem;
 }
 .nav-link{
@@ -88,6 +86,11 @@ nav {
 
 .card {
   height: 100%;
+  border-radius: 20px;
+}
+#figure{
+  border-radius: 10px ;
+  box-shadow: 0 8px 8px -4px lightblue;
 }
 
 .card-title a {
@@ -101,6 +104,7 @@ nav {
 
 .card-body {
   padding-left: 0;
+
 }
 
 .card-text {
@@ -514,7 +518,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #232f3e;
+  background: #584027b1;
   color: #fff;
   transition: all 0.3s;
 }
@@ -671,11 +675,16 @@ ul.CTAs a {
     color: #555;
 }
 .bg-white{
-  box-shadow: 10px 5px 5px rgb(37, 116, 3) !important;
+  /* box-shadow: 10px 5px 5px rgb(37, 116, 3) !important; */
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc !important;
 }
 .container-xxl {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  background-color: #00000026;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  background-color: #58402780;
+  box-shadow: 0 0 5px 5px #584027fd;
+}
+.col-lg-7{
+  background-color: #07861834;
 }
 
 /* Why */
@@ -873,12 +882,13 @@ ul.CTAs a {
 
 /* shop css */
 .product-grid{
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   text-align: center;
   border-radius: 15px;
   border: 1px solid #e7e7e7;
   overflow: hidden;
   transition: all 0.4s ease-out;
+  background-color: white;
 }
 .product-grid:hover{ box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.1); }
 .product-grid .product-image{ position: relative; }
@@ -1031,9 +1041,10 @@ ul.CTAs a {
 /* shop css end */
 /* home product */
 .product-grids{
-  font-family: 'Poppins', sans-serif;
+  
   text-align: center;
   border: 2px solid #e7e7e738;
+  border-radius: 20px;
 }
 .product-grids .product-images{ position: relative; }
 .product-grids .product-images a.images{ display: block; }
@@ -1123,20 +1134,20 @@ ul.CTAs a {
   margin: 0 3px 0 0;
 }
 @keyframes color-animate{
-  0%{ color: #00b894; }
-  20%{ color: #00cec9; }
-  40%{ color: #0984e3; }
-  60%{ color: #6c5ce7; }
-  80%{ color: #e84393; }
-  100%{ color: #00b894; }
+  0%{ color: #078617; }
+  20%{ color: #584027; }
+  40%{ color: #04ae1b; }
+  60%{ color: #835d35; }
+  80%{ color: #e88043; }
+  100%{ color: #52e866; }
 }
 @keyframes bg-animate{
-  0%{ background-color: #00b894; }
-  20%{ background-color: #00cec9; }
-  40%{ background-color: #0984e3; }
-  60%{ background-color: #6c5ce7; }
-  80%{ background-color: #e84393; }
-  100%{ background-color: #00b894; }
+  0%{ background-color: #078617; }
+  20%{ background-color: #584027; }
+  40%{ background-color: #04ae1b; }
+  60%{ background-color: #835d35; }
+  80%{ background-color: #e88043; }
+  100%{ background-color: #52e866; }
 }
 @media screen and (max-width:1200px){
   .product-grids{ margin: 0 0 30px; }

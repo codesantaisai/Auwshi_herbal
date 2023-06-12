@@ -188,7 +188,7 @@ function MyComponent(){
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">
-    <img src="https://media.istockphoto.com/id/1149801914/photo/facial-body-cosmetic-products-leaves-and-flowers-blossom-on-white-desktop-background-whith.jpg?s=612x612&w=0&k=20&c=VPKLROvVYuwyzjKqESCw4lMbPtZaYIjPo71UhbHg_I4=" />
+    <img id="figure" src="https://media.istockphoto.com/id/1149801914/photo/facial-body-cosmetic-products-leaves-and-flowers-blossom-on-white-desktop-background-whith.jpg?s=612x612&w=0&k=20&c=VPKLROvVYuwyzjKqESCw4lMbPtZaYIjPo71UhbHg_I4=" />
     <div className="card-body">
       <h5 className="card-title">Natural and Organic</h5>
       <p className="card-text">
@@ -202,7 +202,7 @@ function MyComponent(){
 </div>
 <div className="col">
   <div className="card h-100">
-    <img src="https://www.perfect365.com/wp-content/uploads/shutterstock_486713719.jpg" />
+    <img id="figure" src="https://www.perfect365.com/wp-content/uploads/shutterstock_486713719.jpg" />
     <div className="card-body">
       <h5 className="card-title">Fewer Side Effects</h5>
       <p className="card-text">Herbal products are generally believed to have fewer side effects compared to synthetic drugs</p>
@@ -214,7 +214,7 @@ function MyComponent(){
 </div>
 <div className="col">
   <div className="card h-100">
-    <img src="https://img.freepik.com/premium-photo/flat-lay-composition-with-cosmetic-products-natural-organic-botany-alternative-herb-medicine-natural-skin-care-beauty-products-creation-natural-cosmetics-mortar_121946-593.jpg" />
+    <img id="figure" src="https://img.freepik.com/premium-photo/flat-lay-composition-with-cosmetic-products-natural-organic-botany-alternative-herb-medicine-natural-skin-care-beauty-products-creation-natural-cosmetics-mortar_121946-593.jpg" />
     <div className="card-body">
       <h5 className="card-title">Potential Health Benefits</h5>
       <p className="card-text">
@@ -241,7 +241,9 @@ function App (){
     return(
        <div>
          <Carousel></Carousel>
+         <br></br><br></br>
          <Why></Why>
+         <br></br><br></br>
          <MyComponent></MyComponent>
          <br></br><br></br>
          <Viewproduct/>

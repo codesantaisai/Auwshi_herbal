@@ -207,39 +207,43 @@ const Contact = ()=>{
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="name">Your Name</label>
                   <input
                     type="text"
                     className="form-control"
                     id="name"
                     placeholder="Your Name"
                   />
-                  <label htmlFor="name">Your Name</label>
+                  
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="form-floating">
+                <label htmlFor="email">Your Email</label>
                   <input
                     type="email"
                     className="form-control"
                     id="email"
                     placeholder="Your Email"
                   />
-                  <label htmlFor="email">Your Email</label>
+                  
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="subject">Subject</label>
                   <input
                     type="text"
                     className="form-control"
                     id="subject"
                     placeholder="Subject"
                   />
-                  <label htmlFor="subject">Subject</label>
+                  
                 </div>
               </div>
               <div className="col-12">
                 <div className="form-floating">
+                <label htmlFor="message">Message</label>
                   <textarea
                     className="form-control"
                     placeholder="Leave a message here"
@@ -247,9 +251,10 @@ const Contact = ()=>{
                     style={{ height: 200 }}
                     defaultValue={""}
                   />
-                  <label htmlFor="message">Message</label>
+                  
                 </div>
               </div>
+              <br></br>
               <div className="col-12">
                 <button
                   className="btn btn-warning rounded-pill py-3 px-5 submit-btn"
@@ -316,46 +321,58 @@ const Contact = ()=>{
 
 
 
-const Feature = () => {
-  return (
-    <div className="container mt-2">
-      <div className="row">
-        <div className="col-md-3 col-sm-6">
-          <div className="card card-block">
-            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
-            <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
-            <h5 className="card-title mt-3 mb-3">Sierra Web Development • Owner</h5>
-            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <div className="card card-block">
-            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
-            <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
-            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
-            <p className="card-text">This is a company that builds websites, web.</p>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <div className="card card-block">
-            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
-            <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset" />
-            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
-            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <div className="card card-block">
-            <h4 className="card-title text-right"><i className="material-icons">settings</i></h4>
-            <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset" />
-            <h5 className="card-title mt-3 mb-3">ProVyuh</h5>
-            <p className="card-text">This is a company that builds websites, web apps and e-commerce solutions.</p>
-          </div>
-        </div>
-      </div>
+function Feature(){
+  return(
+    <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
+    data-wow-delay="0.1s">
+      <h1 className="display-5 mb-3">Our Features </h1>
+      <p>Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals..</p>
+<div className="row row-cols-1 row-cols-md-3 g-4">
+<div className="col">
+  <div className="card h-100">
+    <img id="figure" src="https://cdn.shopify.com/s/files/1/0622/8508/6951/articles/Watering_Herbs.jpg?v=1648149528" />
+    <div className="card-body">
+      <h5 className="card-title">Herbal Product</h5>
+      <p className="card-text">
+      Natural ingredients. No harmful chemicals. Promotes wellness. Relieves ailments. Gentle yet effective. Supports natural healing. Harness the power of nature.
+      </p>
     </div>
+    {/* <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div> */}
+  </div>
+</div>
+<div className="col">
+  <div className="card h-100">
+    <img  id="figure" src="https://blog.mountainroseherbs.com/hubfs/Blog%20images/Herbs%20for%20Skincare%20Banner.jpg" />
+    <div className="card-body">
+      <h5 className="card-title">Natural Process</h5>
+      <p className="card-text">Natural processes are the inherent mechanisms by which nature functions. They encompass various phenomena like photosynthesis, erosion, and ecological interactions, crucial for maintaining the balance and sustainability of ecosystems without human intervention.</p>
+    </div>
+    {/* <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div> */}
+  </div>
+</div>
+<div className="col">
+  <div className="card h-100">
+    <img id="figure" src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2021/8/shutterstock_656977798.jpg" />
+    <div className="card-body">
+      <h5 className="card-title">Biologically Safe</h5>
+      <p className="card-text">
+      Biologically safe refers to products or substances that are non-toxic and pose no harm or adverse effects on living organisms, including humans and the environment. They are designed to be compatible and safe for biological systems.
+      </p>
+    </div>
+    {/* <div className="card-footer">
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </div> */}
+  </div>
+</div>
+</div>
+</div>
   );
-};
+}
+
 
 
 
@@ -364,11 +381,13 @@ function About(){
     return(
     <div>
       <Image></Image>
+      <br></br> <br></br>
         <Feature></Feature>
         <br></br> <br></br>
         <Contact></Contact>
-        <br></br> <br></br>
+        <br></br> 
         <Map></Map>
+        <br></br> <br></br>
         <Team></Team>
     </div>
       
