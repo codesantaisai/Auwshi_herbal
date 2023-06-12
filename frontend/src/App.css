@@ -6,7 +6,8 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  margin-top: 50px; 
+  margin-top: 45px; 
+  margin-bottom: 110px;
   background: linear-gradient(to right, #e8cbc0, #9967036a);
 
   
@@ -33,7 +34,7 @@ body {
 
 nav {
   margin-top: -15px !important;
-  background-color:#a8b89e;
+  background-color:rgba(255, 255, 255, 0.613);
   padding: 1rem 1rem;
 }
 .nav-link{
@@ -70,12 +71,15 @@ nav {
 }
 
 #cart_count {
-  background-color:#584027;
-  padding: 0.1rem 0.3rem;
+  background-color:white;
+  padding: 1px 8px;
   border-radius: 50%;
-  color:#078617 !important;
+  color:#584027 !important;
   font-weight: bold;
   font-size: 1.3rem;
+  position: absolute;
+  top: 20px;
+  margin-top: -5px;
 
 }
 
@@ -134,11 +138,11 @@ nav {
 
 /* Footer */
 footer {
-  margin-top: 8rem;
-  color: grey;
+  
+  color: #58402790 !important;
   bottom: 0;
   width: 100%;
-  
+  position: fixed;
 }
 
 /* Ratings */

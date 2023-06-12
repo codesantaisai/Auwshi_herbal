@@ -6,7 +6,7 @@ export  default function Footer (){
   {/* Copyright */}
   <div
     className="p-3"
-    style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+    style={{ backgroundColor: "#58402790" }}
   >
 <div className="container">
   <div className="row text-left">
