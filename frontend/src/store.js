@@ -6,6 +6,12 @@ import authReducer from './slices/authSlice';
 import cartReducer from './slices/cartSlice';
 import orderReducer from './slices/orderSlice';
 import userReducer from './slices/userSlice'
+import {
+    createBlogReducer,
+    getAllBlogsReducer,
+    getBlogByIdReducer,
+    deleteBlogReducer,
+  } from "./reducer/blogReducer";
 
 
 const reducer = combineReducers({
@@ -14,7 +20,11 @@ const reducer = combineReducers({
     authState: authReducer,
     cartState: cartReducer,
     orderState: orderReducer,
-    userState: userReducer
+    userState: userReducer,
+    AllBlogs: getAllBlogsReducer,
+  creatBlog: createBlogReducer,
+  deletBlog: deleteBlogReducer,
+  BlogById: getBlogByIdReducer,
 })
 
 
