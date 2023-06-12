@@ -29,7 +29,7 @@ const Map = () => {
 const Image = () =>{
   return (
     <div class="full-width-image  page_head page_head_bg">
-  <img src="/images/AUWSHI_HERBS.png" alt="Full-width image"/>
+  <img src="/images/AUWSHI_HERBS.png" alt="Full-width image" className='jathu'/>
 </div>
   )
 }
@@ -41,7 +41,7 @@ const Team = ()=>{
   <div className="container py-5">
     <div className="row text-center text-dark">
       <div className="col-lg-8 mx-auto">
-        <h1 className="display-5 mb-3">Team Page</h1>
+        <h1 className="display-5 mb-3 underline-heading">Team Page</h1>
       </div>
     </div>
   </div>
@@ -194,7 +194,7 @@ const Contact = ()=>{
         style={{ maxWidth: 500 }}
       >
         
-        <h1 className="display-5 mb-3">Contact Us</h1>
+        <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
         <p>
           Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
           justo sed rebum vero dolor duo.
@@ -257,7 +257,7 @@ const Contact = ()=>{
               <br></br>
               <div className="col-12">
                 <button
-                  className="btn btn-warning rounded-pill py-3 px-5 submit-btn"
+                  className="btn btn-warning rounded-pill py-3 px-5 submit-btn submit"
                   type="submit"
                 >
                   Send Message
@@ -325,7 +325,7 @@ function Feature(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3">Our Features </h1>
+      <h1 className="display-5 mb-3 underline-heading">Our Features </h1>
       <p>Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals..</p>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
@@ -383,7 +383,7 @@ function About(){
       <Image></Image>
       <br></br> <br></br>
         <Feature></Feature>
-        <br></br> <br></br>
+        <br></br> <br></br><br></br>
         <Contact></Contact>
         <br></br> 
         <Map></Map>
