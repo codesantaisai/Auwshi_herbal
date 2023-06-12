@@ -16,6 +16,8 @@ const auth = require('./routes/auth')
 const order = require('./routes/order')
 const payment = require('./routes/payment')
 const contact = require('./routes/contact')
+const blog = require('./routes/blog')
+
 
 
 app.use('/api/v1/',products);
@@ -23,6 +25,8 @@ app.use('/api/v1/',auth);
 app.use('/api/v1/',order);
 app.use('/api/v1/',payment);
 app.use('/api/v1/',contact);
+app.use('/api/v1/',blog);
+
 
 
 if(process.env.NODE_ENV === "production") {

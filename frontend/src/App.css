@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   margin-top: 45px; 
   background: linear-gradient(to right, #e8cbc0, #9967036a);
+  margin-bottom: 110px;
 
   
 
@@ -138,6 +139,7 @@ footer {
   color: grey;
   bottom: 0;
   width: 100%;
+  position: fixed;
   
 }
 
@@ -1200,7 +1202,3 @@ ul.CTAs a {
 
 
 
-
-.card-text{
-text-align: justify;
-}
