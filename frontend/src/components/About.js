@@ -257,7 +257,7 @@ const Contact = ()=>{
               <br></br>
               <div className="col-12">
                 <button
-                  className="btn btn-warning rounded-pill py-3 px-5 submit-btn submit"
+                  className="btnconduct rounded-pill py-3 px-5 submit-btn submit"
                   type="submit"
                 >
                   Send Message
@@ -268,49 +268,51 @@ const Contact = ()=>{
         </div>
         <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
           
-          <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
-            <h5 className="text-white">Call Us</h5>
+          <div className="callus text-dark d-flex flex-column justify-content-center h-100 p-5">
+            <h5 className="text-dark">Call Us</h5>
             <p className="mb-5">
               <i className="fa fa-phone-alt me-3" />
               +947 7644 3471
             </p>
-            <h5 className="text-white">Email Us</h5>
+            <h5 className="text-dark">Email Us</h5>
             <p className="mb-5">
               <i className="fa fa-envelope me-3" />
               auwshiherbs@gmail.com
             </p>
-            <h5 className="text-white">Office Address</h5>
+            <h5 className="text-dark">Office Address</h5>
             <p className="mb-5">
               <i className="fa fa-map-marker-alt me-3" />
              Vikneshwara road,  Chankanai , Jaffna 
             </p>
-            <h5 className="text-white">Follow Us</h5>
+            <h5 className="text-dark">Follow Us</h5>
             <div className="d-flex pt-2">
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-twitter" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-youtube" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-0"
-                href=""
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
-            </div>
+  <a
+    className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+    href=""
+  >
+    <i className="fab fa-tiktok" />
+  </a>
+              
+  <a
+    className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+    href=""
+  >
+    <i className="fab fa-facebook-f" />
+  </a>
+  <a
+    className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+    href=""
+  >
+    <i className="fab fa-instagram" />
+  </a>
+  <a
+    className="btn btn-square btn-outline-dark rounded-circle me-0 mb-1"
+    href=""
+  >
+    <i className="fab fa-linkedin-in" />
+  </a>
+</div>
+
           </div>
         </div>
       </div>

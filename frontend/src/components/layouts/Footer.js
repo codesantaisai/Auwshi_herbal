@@ -11,14 +11,14 @@ export  default function Footer (){
 <div className="container">
   <div className="row text-left">
     <div className="col-6 foot">    © 2023 Copyright:
-    <a className="text-dark" href="#">
+    <a className="text-foot" href="#">
       Auwshiherbs.com
     </a>
     </div>
     <div className="col-6 text-right"> 
     {/* Facebook */}
     <a
-      className="btn btn-outline-light btn-floating m-1"
+      className="btn btn-outline-dark btn-floating m-1"
       href="#!"
       role="button"
     >
@@ -26,7 +26,7 @@ export  default function Footer (){
     </a>
     {/* Instagram */}
     <a
-      className="btn btn-outline-light btn-floating m-1"
+      className="btn btn-outline-dark btn-floating m-1"
       href="#!"
       role="button"
     >
@@ -34,7 +34,7 @@ export  default function Footer (){
     </a>
     {/* Linkedin */}
     <a
-      className="btn btn-outline-light btn-floating m-1"
+      className="btn btn-outline-dark btn-floating m-1"
       href="#!"
       role="button"
     >
