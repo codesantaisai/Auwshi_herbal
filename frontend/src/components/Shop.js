@@ -55,6 +55,7 @@ export  default function Shop(){
                                 itemClass={'page-item'}
                                 linkClass={'page-link'}
                            />     
+                           
                     </div> : null }
                 </Fragment>
            }
