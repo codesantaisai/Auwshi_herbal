@@ -190,6 +190,7 @@ const Team = ()=>{
 
 
 
+
 const Contact = ({history})=>{
 
   const dispatch = useDispatch();
@@ -223,15 +224,16 @@ toast.success("Form summited successfully")
         data-wow-delay="0.1s"
         style={{ maxWidth: 500 }}
       >
+
         
-        <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
-        <p>
-          Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
-          justo sed rebum vero dolor duo.
-        </p>
-      </div>
-      <div className="row g-5 justify-content-center">
-        <div className="col-lg-5 col-md-12 wow fadeInUp " data-wow-delay="0.1s">
+//         <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
+//         <p>
+//           Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
+//           justo sed rebum vero dolor duo.
+//         </p>
+//       </div>
+//       <div className="row g-5 justify-content-center">
+//         <div className="col" data-wow-delay="0.1s" id="conduct">
           
           <form onSubmit={handleSubmit}>
             <div className="row g-3">
@@ -309,57 +311,211 @@ toast.success("Form summited successfully")
           </form>
         </div>
         <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+
           
-          <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
-            <h5 className="text-white">Call Us</h5>
-            <p className="mb-5">
-              <i className="fa fa-phone-alt me-3" />
-              +947 7644 3471
-            </p>
-            <h5 className="text-white">Email Us</h5>
-            <p className="mb-5">
-              <i className="fa fa-envelope me-3" />
-              auwshiherbs@gmail.com
-            </p>
-            <h5 className="text-white">Office Address</h5>
-            <p className="mb-5">
-              <i className="fa fa-map-marker-alt me-3" />
-             Vikneshwara road,  Chankanai , Jaffna 
-            </p>
-            <h5 className="text-white">Follow Us</h5>
-            <div className="d-flex pt-2">
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-twitter" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-1"
-                href=""
-              >
-                <i className="fab fa-youtube" />
-              </a>
-              <a
-                className="btn btn-square btn-outline-light rounded-circle me-0"
-                href=""
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
+//           {/* <div className="callus text-dark d-flex flex-column justify-content-center h-100 p-5">
+//             <h5 className="text-dark">Call Us</h5>
+//             <p className="mb-5">
+//               <i className="fa fa-phone-alt me-3" />
+//               +947 7644 3471
+//             </p>
+//             <h5 className="text-dark">Email Us</h5>
+//             <p className="mb-5">
+//               <i className="fa fa-envelope me-3" />
+//               auwshiherbs@gmail.com
+//             </p>
+//             <h5 className="text-dark">Office Address</h5>
+//             <p className="mb-5">
+//               <i className="fa fa-map-marker-alt me-3" />
+//              Vikneshwara road,  Chankanai , Jaffna 
+//             </p>
+//             <h5 className="text-dark">Follow Us</h5>
+//             <div className="d-flex pt-2">
+//   <a
+//     className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+//     href=""
+//   >
+//     <i className="fab fa-tiktok" />
+//   </a>
+              
+//   <a
+//     className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+//     href=""
+//   >
+//     <i className="fab fa-facebook-f" />
+//   </a>
+//   <a
+//     className="btn btn-square btn-outline-dark rounded-circle me-1 mb-1"
+//     href=""
+//   >
+//     <i className="fab fa-instagram" />
+//   </a>
+//   <a
+//     className="btn btn-square btn-outline-dark rounded-circle me-0 mb-1"
+//     href=""
+//   >
+//     <i className="fab fa-linkedin-in" />
+//   </a>
+// </div>
+
+//           </div> */}
+//           <Map></Map>
+//         </div>
+//       </div>
+    
+
+//   <div className="row" id='conducticon'>
+//                 <div className="col-md-3">
+//                   <div className="dbox w-100 text-center">
+//                     <div className="icon d-flex align-items-center justify-content-center">
+//                       <span className="fas fa-map-marker-alt"></span>
+//                     </div>
+//                     <div className="text">
+//                       <p><span>Address:</span> 198 West 21th Street, New York</p>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div className="col-md-3">
+//                   <div className="dbox w-100 text-center">
+//                     <div className="icon d-flex align-items-center justify-content-center">
+//                       <span className="fa fa-phone"></span>
+//                     </div>
+//                     <div className="text">
+//                       <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div className="col-md-3">
+//                   <div className="dbox w-100 text-center">
+//                     <div className="icon d-flex align-items-center justify-content-center">
+//                       <span className="fa fa-paper-plane"></span>
+//                     </div>
+//                     <div className="text">
+//                       <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+//                     </div>
+//                   </div>
+//                 </div>
+//                 <div className="col-md-3">
+//                   <div className="dbox w-100 text-center">
+//                     <div className="icon d-flex align-items-center justify-content-center">
+//                       <span className="fa fa-globe"></span>
+//                     </div>
+//                     <div className="text">
+//                       <p><span>Website</span> <a href="#">yoursite.com</a></p>
+//                     </div>
+//                   </div>
+//                   </div>
+//                 </div>
+//                 </div>
+//   </div>
+//   )
+// }
+
+
+
+const Contact = ()=>{
+     return (
+<section className="contact-page-sec">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+        <div className="contact-info">
+          <div className="contact-info-item">
+            <div className="contact-info-icon">
+              <i className="fas fa-map-marked"></i>
             </div>
-          </div>
-        </div>
+            <div className="contact-info-text">
+              <h2>address</h2>
+              <span>Vikneswara road ,Changanai. </span> 
+            
+            </div>
+          </div>            
+        </div>          
+      </div>          
+      <div className="col-md-4">
+        <div className="contact-info">
+          <div className="contact-info-item">
+            <div className="contact-info-icon">
+              <i className="fas fa-envelope"></i>
+            </div>
+            <div className="contact-info-text">
+              <h2>E-mail</h2>
+              <span>auwshiherbs@gmail.com</span> 
+              
+            </div>
+          </div>            
+        </div>                
+      </div>                
+      <div className="col-md-4">
+        <div className="contact-info">
+          <div className="contact-info-item">
+            <div className="contact-info-icon">
+              <i className="fas fa-phone"></i>
+            </div>
+            <div className="contact-info-text">
+              <h2>Phone</h2>
+              <span>0706443471</span>
+              
+            </div>
+          </div>            
+        </div>          
+      </div>          
+    </div>
+    <div className="row">
+      <div className="col-md-8">
+        <div className="contact-page-form">
+          <h2>Conduct Us</h2> 
+          <form action="contact-mail.php" method="post">
+            <div className="row">
+              <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="single-input-field">
+                  <input type="text" placeholder="Your Name" name="name"/>
+                </div>
+              </div>  
+              <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="single-input-field">
+                  <input type="email" placeholder="E-mail" name="email" required/>
+                </div>
+              </div>                              
+              <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="single-input-field">
+                  <input type="text" placeholder="Phone Number" name="phone"/>
+                </div>
+              </div>  
+              <div className="col-md-6 col-sm-6 col-xs-12">
+                <div className="single-input-field">
+                  <input type="text" placeholder="Subject" name="subject"/>
+                </div>
+              </div>                
+              <div className="col-md-12 message-input">
+                <div className="single-input-field">
+                  <textarea placeholder="Write Your Message" name="message"></textarea>
+                </div>
+              </div>                                                
+              <div className="single-input-fieldsbtn">
+                <input type="submit" value="Send Now"/>
+              </div>                          
+            </div>
+          </form>   
+        </div>      
       </div>
+      <div className="col-md-4">        
+        <div className="contact-page-map">
+          
+          <Map></Map>
+        </div>          
+      </div>        
     </div>
   </div>
-  )
-}
+</section>
+     );
+    }
+
+
+
+
+
+
 
 
 
@@ -427,9 +583,6 @@ function About(){
         <Feature></Feature>
         <br></br> <br></br><br></br>
         <Contact></Contact>
-        <br></br> 
-        <Map></Map>
-        <br></br> <br></br>
         <Team></Team>
     </div>
       
