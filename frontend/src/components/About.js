@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import {useDispatch, useSelector} from "react-redux";
+import { createReport } from '../../src/actions/reportAction';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Map = () => {
     const mapStyles = {
@@ -184,7 +187,34 @@ const Team = ()=>{
     
 };
 
-const Contact = ()=>{
+
+
+
+const Contact = ({history})=>{
+
+  const dispatch = useDispatch();
+  const {loading} = useSelector((state) => state.creatReport);
+  
+  const [name, setName] = useState("")
+  const [subject, setSubject] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+ 
+  const handleSubmit = (e) => {
+e.preventDefault();
+
+
+dispatch(createReport(name,subject,email,message));
+setName("");
+setSubject("");
+setEmail("");
+setMessage("");
+
+// history.push("/aboutus");
+toast.success("Form summited successfully")
+  }
+
+
   return (
     <div className="container-xxl py-6">
     <div className="container">
@@ -203,7 +233,7 @@ const Contact = ()=>{
       <div className="row g-5 justify-content-center">
         <div className="col-lg-5 col-md-12 wow fadeInUp " data-wow-delay="0.1s">
           
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="row g-3">
               <div className="col-md-6">
                 <div className="form-floating">
@@ -211,8 +241,11 @@ const Contact = ()=>{
                   <input
                     type="text"
                     className="form-control"
+                    label="Name"
                     id="name"
+                    value={name}
                     placeholder="Your Name"
+                    onChange={(e)=> setName(e.target.value)}
                   />
                   
                 </div>
@@ -223,8 +256,11 @@ const Contact = ()=>{
                   <input
                     type="email"
                     className="form-control"
+                    value={email}
                     id="email"
                     placeholder="Your Email"
+                    onChange={(e)=> setEmail(e.target.value)}
+
                   />
                   
                 </div>
@@ -235,8 +271,11 @@ const Contact = ()=>{
                   <input
                     type="text"
                     className="form-control"
+                    value={subject}
                     id="subject"
                     placeholder="Subject"
+                    onChange={(e)=> setSubject(e.target.value)}
+
                   />
                   
                 </div>
@@ -247,9 +286,11 @@ const Contact = ()=>{
                   <textarea
                     className="form-control"
                     placeholder="Leave a message here"
+                    value={message}
                     id="message"
                     style={{ height: 200 }}
-                    defaultValue={""}
+                    onChange={(e)=> setMessage(e.target.value)}
+
                   />
                   
                 </div>
@@ -259,6 +300,7 @@ const Contact = ()=>{
                 <button
                   className="btn btn-warning rounded-pill py-3 px-5 submit-btn submit"
                   type="submit"
+                  disabled={loading}
                 >
                   Send Message
                 </button>

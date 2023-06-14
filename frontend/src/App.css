@@ -1183,7 +1183,10 @@ ul.CTAs a {
   .underline-heading {
     position: relative;
     display: inline-block;
+
+    
   }
+
   
   .underline-heading::after {
     content: '';
@@ -1194,6 +1197,7 @@ ul.CTAs a {
     height: 3px;
     background-color: #584027; /* Adjust this value to change the underline color */
   }
+  
   
 
 

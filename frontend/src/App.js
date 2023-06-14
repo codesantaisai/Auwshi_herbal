@@ -45,6 +45,7 @@ import CustomerBlog from '../src/components/blog/CustomerBlog';
 import BlogsList from './components/blog/BlogList';
 import EditBlog from './components/blog/EditBlog';
 import CreateBlog from './components/blog/CreateBlog';
+import ReportList from './components/Reports/ReportList';
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
@@ -71,12 +72,14 @@ function App() {
                       <Route path='/blog' element={<CustomerBlog/>}/>
 
 
+
                     {/* <Route exact path="/blogs" element={<CustomerBlog/>} /> */}
                   <Route exact path="/admin/blogs" element={<BlogsList/>} />
                   <Route exact path="/create-blog" element={<CreateBlog/>} />
                   <Route path="/blogs/:id" element={<EditBlog/>} />
                   
-                      
+                  <Route exact path="/admin/reports" element={<ReportList/>} />
+
                       
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
