@@ -12,12 +12,7 @@ import {
     getBlogByIdReducer,
     deleteBlogReducer,
   } from "./reducer/blogReducer";
-import {
-createReportReducer,
-getAllReportsReducer,
-getReportByIdReducer,
-deleteReportReducer
-} from "./reducer/reportReducer"
+
 
 const reducer = combineReducers({
     productsState: productsReducer,
@@ -30,12 +25,6 @@ const reducer = combineReducers({
   creatBlog: createBlogReducer,
   deletBlog: deleteBlogReducer,
   BlogById: getBlogByIdReducer,
-
-  AllReports: getAllReportsReducer,
-  creatReport: createReportReducer,
-  deletReport: deleteReportReducer,
-  ReportById: getReportByIdReducer,
-
 })
 
 

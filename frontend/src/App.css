@@ -1189,12 +1189,6 @@ ul.CTAs a {
   .underline-heading {
     position: relative;
     display: inline-block;
-
-
-    
-  }
-
-
   
   }
   hr::before {
@@ -1211,7 +1205,6 @@ ul.CTAs a {
     background-color: #584027; /* Adjust this value to change the underline color */
     
   }
-  
   
 
 

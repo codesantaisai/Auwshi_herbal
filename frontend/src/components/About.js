@@ -1,10 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import {useDispatch, useSelector} from "react-redux";
-import { createReport } from '../../src/actions/reportAction';
-import { ToastContainer, toast } from 'react-toastify';
 
 const Map = () => {
     const mapStyles = {
@@ -187,44 +184,17 @@ const Team = ()=>{
     
 };
 
-
-
-
-
-const Contact = ({history})=>{
-
-  const dispatch = useDispatch();
-  const {loading} = useSelector((state) => state.creatReport);
-  
-  const [name, setName] = useState("")
-  const [subject, setSubject] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
- 
-  const handleSubmit = (e) => {
-e.preventDefault();
-
-
-dispatch(createReport(name,subject,email,message));
-setName("");
-setSubject("");
-setEmail("");
-setMessage("");
-
-// history.push("/aboutus");
-toast.success("Form summited successfully")
-  }
-
-
-  return (
-    <div className="container-xxl py-6">
-    <div className="container">
-      <div
-        className="section-header text-center mx-auto mb-5 wow fadeInUp"
-        data-wow-delay="0.1s"
-        style={{ maxWidth: 500 }}
-      >
-
+// const Contact = ()=>{
+//   return (
+//     <div className="container">
+    
+//     <div className="row ">
+    
+//       <div
+//         className="section-header text-center mx-auto mb-5 wow fadeInUp"
+//         data-wow-delay="0.1s"
+//         style={{ maxWidth: 500 }}
+//       >
         
 //         <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
 //         <p>
@@ -235,83 +205,70 @@ toast.success("Form summited successfully")
 //       <div className="row g-5 justify-content-center">
 //         <div className="col" data-wow-delay="0.1s" id="conduct">
           
-          <form onSubmit={handleSubmit}>
-            <div className="row g-3">
-              <div className="col-md-6">
-                <div className="form-floating">
-                <label htmlFor="name">Your Name</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    label="Name"
-                    id="name"
-                    value={name}
-                    placeholder="Your Name"
-                    onChange={(e)=> setName(e.target.value)}
-                  />
+//           <form>
+//             <div className="row g-3">
+//               <div className="col-md-6">
+//                 <div className="form-floating">
+//                 <label htmlFor="name">Your Name</label>
+//                   <input
+//                     type="text"
+//                     className="form-control"
+//                     id="name"
+//                     placeholder="Your Name"
+//                   />
                   
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="form-floating">
-                <label htmlFor="email">Your Email</label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    value={email}
-                    id="email"
-                    placeholder="Your Email"
-                    onChange={(e)=> setEmail(e.target.value)}
-
-                  />
+//                 </div>
+//               </div>
+//               <div className="col-md-6">
+//                 <div className="form-floating">
+//                 <label htmlFor="email">Your Email</label>
+//                   <input
+//                     type="email"
+//                     className="form-control"
+//                     id="email"
+//                     placeholder="Your Email"
+//                   />
                   
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="form-floating">
-                <label htmlFor="subject">Subject</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    value={subject}
-                    id="subject"
-                    placeholder="Subject"
-                    onChange={(e)=> setSubject(e.target.value)}
-
-                  />
+//                 </div>
+//               </div>
+//               <div className="col-12">
+//                 <div className="form-floating">
+//                 <label htmlFor="subject">Subject</label>
+//                   <input
+//                     type="text"
+//                     className="form-control"
+//                     id="subject"
+//                     placeholder="Subject"
+//                   />
                   
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="form-floating">
-                <label htmlFor="message">Message</label>
-                  <textarea
-                    className="form-control"
-                    placeholder="Leave a message here"
-                    value={message}
-                    id="message"
-                    style={{ height: 200 }}
-                    onChange={(e)=> setMessage(e.target.value)}
-
-                  />
+//                 </div>
+//               </div>
+//               <div className="col-12">
+//                 <div className="form-floating">
+//                 <label htmlFor="message">Message</label>
+//                   <textarea
+//                     className="form-control"
+//                     placeholder="Leave a message here"
+//                     id="message"
+//                     style={{ height: 100 }}
+//                     defaultValue={""}
+//                   />
                   
-                </div>
-              </div>
-              <br></br>
-              <div className="col-12">
-                <button
-                  className="btn btn-warning rounded-pill py-3 px-5 submit-btn submit"
-                  type="submit"
-                  disabled={loading}
-                >
-                  Send Message
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-
+//                 </div>
+//               </div>
+//               <br></br>
+//               <div className="col-12">
+//                 <button
+//                   className="btnconduct rounded-pill py-3 px-5 submit-btn submit"
+//                   type="submit"
+//                 >
+//                   Send Message
+//                 </button>
+//               </div>
+//             </div>
+//           </form>
+//         </div>
+//         <div className="col" data-wow-delay="0.5s" id="conduct">
           
 //           {/* <div className="callus text-dark d-flex flex-column justify-content-center h-100 p-5">
 //             <h5 className="text-dark">Call Us</h5>
