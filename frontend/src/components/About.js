@@ -52,7 +52,7 @@ const Team = ()=>{
       <div className="col-xl-3 col-sm-6 mb-5">
         <div className="bg-white rounded shadow-sm py-5 px-4">
           <img
-            src="/images/jathu.jpeg"
+            src="/images/ja.jpg"
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
@@ -84,7 +84,7 @@ const Team = ()=>{
       <div className="col-xl-3 col-sm-6 mb-5">
         <div className="bg-white rounded shadow-sm py-5 px-4 nilax">
           <img
-            src="/images/nilack.jpeg"
+            src="/images/ni.jpg"
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
@@ -116,7 +116,7 @@ const Team = ()=>{
       <div className="col-xl-3 col-sm-6 mb-5">
         <div className="bg-white rounded shadow-sm py-5 px-4">
           <img
-            src="/images/ano.jpg"
+            src="/images/anoshaa.jpg"
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
