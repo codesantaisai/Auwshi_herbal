@@ -84,7 +84,7 @@ export default function ProductDetail () {
             {loading? <Loader/>:
             <Fragment>
                 <MetaData title={product.name} />
-                <div className="row f-flex justify-content-around">
+                <div className="row f-flex justify-content-around prodetail">
                     <div className="col-12 col-lg-5 img-fluid" id="product_image">
                         <Carousel pause="hover">
                             {product.images && product.images.length > 0 && product.images.map(image =>
@@ -114,7 +114,7 @@ export default function ProductDetail () {
 
                         <input type="number" className="form-control count d-inline" value={quantity} readOnly />
 
-                        <span className="btn btn-primary plus" onClick={increaseQty}>+</span>
+                        <span className="btn btn-success plus" onClick={increaseQty}>+</span>
                     </div>
                     <button type="button" id="cart_btn" 
                      disabled={product.stock==0?true:false} 

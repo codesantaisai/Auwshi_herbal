@@ -55,7 +55,7 @@ export default function Cart() {
                                                     <span className="btn btn-danger minus" onClick={() => decreaseQty(item)}>-</span>
                                                     <input type="number" className="form-control count d-inline" value={item.quantity} readOnly />
 
-                                                    <span className="btn btn-primary plus" onClick={() => increaseQty(item)}>+</span>
+                                                    <span className="btn btn-success plus" onClick={() => increaseQty(item)}>+</span>
                                                 </div>
                                             </div>
 

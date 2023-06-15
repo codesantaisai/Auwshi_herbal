@@ -14,6 +14,9 @@ body {
   
 
 }
+h3{
+  font-size: 2rem;
+}
 
 /* Scroll Bar */
 
@@ -113,9 +116,9 @@ nav {
 
 }
 
-/* .card-text {
+.card-text {
   font-size: 1.4rem;
-} */
+}
 
 #view_btn {
   background-color: #fa9c23;
@@ -192,7 +195,7 @@ footer {
 #cart_btn,
 #review_btn {
   border-radius: 2rem;
-  background-color: #078618b8;
+  background-color: #078617;
   border: none;
   padding: 0.5rem 2rem;
 }
@@ -258,7 +261,7 @@ footer {
 }
 
 .cart-item a {
-  color: grey;
+  color: #078617;
 }
 
 #delete_cart_item {
@@ -499,6 +502,21 @@ footer {
   background-color: #07861887;
   border-color: #5840273c;
   justify-content: flex-start;
+}
+.px-3{
+  background-color: rgba(255, 255, 255, 0.879);
+  border-radius: 10px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  box-shadow: 0 0 10px 5px #584027;
+  margin-top: 30px;
+}
+.prodetail{
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 20px 10px #584027;
 }
 
 /* Pagination */
@@ -911,7 +929,7 @@ ul.CTAs a {
 }
 .product-grid .product-discount-label{
   color: #fff;
-  background: #78a206;
+  background: #078617;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -955,7 +973,7 @@ ul.CTAs a {
 }
 .product-grid .product-links li a:hover{
   color: #fff;
-  background: #78a206;
+  background: #078617;
   box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0.2);
 }
 .product-grid .product-links li a:before,
@@ -997,7 +1015,7 @@ ul.CTAs a {
   list-style: none;
 }
 .product-grid .rating li{
-  color: #78a206;
+  color: #078617;
   font-size: 14px;
 }
 .product-grid .rating .far{ color: #808080; }
@@ -1221,6 +1239,8 @@ section {
   padding: 60px 0;
   min-height: 80vh;
 }
+
+
 .contact-info {
 display: inline-block;
 width: 100%;
