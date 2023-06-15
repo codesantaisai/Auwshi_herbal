@@ -88,6 +88,9 @@ nav {
 /* Product page */
 #products_heading {
   margin-top: 1.8rem;
+  /* padding-left: 50%;
+  padding-right: 0; */
+  
 }
 
 .card {
