@@ -113,9 +113,9 @@ nav {
 
 }
 
-.card-text {
+/* .card-text {
   font-size: 1.4rem;
-}
+} */
 
 #view_btn {
   background-color: #fa9c23;
@@ -270,7 +270,7 @@ footer {
 }
 
 #card_item_price {
-  color: #febd69;
+  color: #584027;
   font-weight: bold;
   font-size: 1.4rem;
 }
@@ -417,7 +417,7 @@ footer {
 }
 
 .active-step {
-  background: #fa9c23;
+  background: #078617;
   color: #fff;
 }
 
@@ -425,7 +425,7 @@ footer {
   float: left;
   width: 0;
   border-top: 20px solid transparent;
-  border-left: 15px solid #fa9c23;
+  border-left: 15px solid #078617;
   border-bottom: 20px solid transparent;
   margin-left: -1px;
 }
@@ -433,9 +433,9 @@ footer {
 .triangle2-active {
   width: 0;
   float: left;
-  border-top: 20px solid #fa9c23;
+  border-top: 20px solid #078617;
   border-left: 15px solid #fff;
-  border-bottom: 20px solid #fa9c23;
+  border-bottom: 20px solid #078617;
   margin-right: -1px;
 }
 
@@ -1189,7 +1189,7 @@ ul.CTAs a {
   .underline-heading {
     position: relative;
     display: inline-block;
-  
+    
   }
   hr::before {
     text-decoration: underline;
@@ -1233,6 +1233,7 @@ margin-bottom: 15px;
 .contact-info-item {
 background: #EBE1D9;
 padding: 30px 0px;
+border-radius: 20px;
 }
 .contact-page-sec .contact-page-form h2 {
 color:#078617;

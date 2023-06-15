@@ -12,14 +12,13 @@ export default function ConfirmOrder () {
     const itemsPrice = cartItems.reduce((acc, item)=> (acc + item.price * item.quantity),0);
     const shippingPrice = itemsPrice > 200 ? 0 : 25;
     let taxPrice = Number(0.05 * itemsPrice);
-    const totalPrice = Number(itemsPrice + shippingPrice + taxPrice).toFixed(2);
-    taxPrice = Number(taxPrice).toFixed(2)
+    const totalPrice = Number(itemsPrice + shippingPrice ).toFixed(2);
+    // taxPrice = Number(taxPrice).toFixed(2)
     
     const processPayment = () => {
         const data = {
             itemsPrice,
             shippingPrice,
-            taxPrice,
             totalPrice
         }
         sessionStorage.setItem('orderInfo', JSON.stringify(data))

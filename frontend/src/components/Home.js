@@ -100,7 +100,7 @@ function Viewproduct() {
             <h3 className="titles">
               <a href="#">Hair Oil</a>
             </h3>
-            <div className="prices">LKR 100.00</div>
+            <div className="prices">LKR 700.00</div>
           </div>
         </div>
       </div>
@@ -147,7 +147,7 @@ function Viewproduct() {
               <a href="#">Hair Powder</a>
             </h3>
             
-            <div className="prices">LKR 100.00</div>
+            <div className="prices">LKR 150.00</div>
             
           </div>
         </div>
@@ -171,7 +171,7 @@ function Viewproduct() {
               <a href="#">Dry Ginger</a>
             </h3>
             
-            <div className="prices">LKR 100.00</div>
+            <div className="prices">LKR 250.00</div>
             
           </div>
         </div>

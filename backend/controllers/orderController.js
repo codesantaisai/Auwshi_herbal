@@ -9,7 +9,6 @@ exports.newOrder =  catchAsyncError( async (req, res, next) => {
         orderItems,
         shippingInfo,
         itemsPrice,
-        taxPrice,
         shippingPrice,
         totalPrice,
         paymentInfo
@@ -20,7 +19,6 @@ exports.newOrder =  catchAsyncError( async (req, res, next) => {
         orderItems,
         shippingInfo,
         itemsPrice,
-        taxPrice,
         shippingPrice,
         totalPrice,
         paymentInfo,
