@@ -121,7 +121,7 @@ const Team = ()=>{
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
           />
-          <h5 className="mb-0">Anosha <br/>Tharmalingam</h5>
+          <h5 className="mb-0">Anoshaa <br/>Tharmalingam</h5>
           <span className="small text-uppercase text-muted">CEO - Founder</span>
           <ul className="social mb-0 list-inline mt-3">
             <li className="list-inline-item">
@@ -148,7 +148,7 @@ const Team = ()=>{
       <div className="col-xl-3 col-sm-6 mb-5">
         <div className="bg-white rounded shadow-sm py-5 px-4">
           <img
-            src="/images/sayann.jpeg"
+            src="/images/sayan.jpeg"
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
@@ -321,7 +321,7 @@ function Feature(){
     <img  id="figure" src="https://blog.mountainroseherbs.com/hubfs/Blog%20images/Herbs%20for%20Skincare%20Banner.jpg" />
     <div className="card-body">
       <h5 className="card-title">Natural Process</h5>
-      <p className="card-text">Natural processes are the inherent mechanisms by which nature functions. They encompass various phenomena like photosynthesis, erosion, and ecological interactions, crucial for maintaining the balance and sustainability of ecosystems without human intervention.</p>
+      <p className="card-text">Natural processes like photosynthesis, erosion, and ecological interactions are vital for ecosystem balance and sustainability, operating independently from human intervention..</p>
     </div>
     {/* <div className="card-footer">
       <small className="text-muted">Last updated 3 mins ago</small>
@@ -334,7 +334,7 @@ function Feature(){
     <div className="card-body">
       <h5 className="card-title">Biologically Safe</h5>
       <p className="card-text">
-      Biologically safe refers to products or substances that are non-toxic and pose no harm or adverse effects on living organisms, including humans and the environment. They are designed to be compatible and safe for biological systems.
+      Biologically safe products/substances are non-toxic, posing no harm to humans, the environment, or other living organisms. They are designed to be compatible and safe for biological systems.
       </p>
     </div>
     {/* <div className="card-footer">
