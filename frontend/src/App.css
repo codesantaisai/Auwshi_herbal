@@ -140,6 +140,18 @@ nav {
   color: grey;
   margin-left: 0.5rem;
 }
+.carthead{
+  background-color: #078617;
+ color: #584027;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
+  border-radius: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
 /* Footer */
 footer {
@@ -280,7 +292,7 @@ footer {
 
 #checkout_btn,
 .review-btn {
-  background-color: #078618b8;
+  background-color: #078617;
   border-color: #5840273c;
   margin-top: 2rem;
   border-radius: 5rem;
@@ -292,9 +304,18 @@ footer {
 }
 
 #order_summary {
-  border: 1px solid #e3e3e3;
+ background-color: white;
   border-radius: 1rem;
   padding: 2rem 1.5rem;
+  margin-top: 27px;
+}
+#orderitem{
+  background-color: white;
+  border-radius: 1rem;
+  padding-top: 10px;
+  padding-left: 1px;
+  padding-right: 10px;
+  margin-top: 25px;
 }
 
 .order-summary-values {
@@ -331,19 +352,23 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-
   font-weight: 700;
+  
 }
 
 .wrapper form {
   padding: 2.5rem 3rem;
+  background-color: white;
+  border-radius: 1rem;
+
 }
 
 .wrapper form .btn {
-  background-color: #078618b8;
+  background-color: #078617;
   border-color: #5840273c;
   color: white;
   margin-top: 2.5rem;
+  border-radius: 10px;
 }
 
 .wrapper form a {
@@ -484,9 +509,12 @@ footer {
 
 /* Confirm Order */
 
-.order-confirm p,
-.order-details p {
+.order-confirm  {
   margin-left: 1.5rem;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding: 2rem 1.5rem;
 }
 
 .update-btn {
@@ -710,7 +738,7 @@ ul.CTAs a {
 }
 .bg-white{
   /* box-shadow: 10px 5px 5px rgb(37, 116, 3) !important; */
-  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc !important;
+  box-shadow: 0.5rem 0.5rem #078617, -0.5rem -0.5rem #584027 !important;
 }
 
 
@@ -771,6 +799,7 @@ ul.CTAs a {
   right: 0;
   bottom: 0;
   left: 0;
+  
 }
 .projcard-img {
   position: absolute;
