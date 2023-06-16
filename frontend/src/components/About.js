@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import {useDispatch, useSelector} from "react-redux";
+import { createReport } from '../../src/actions/reportAction';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Map = () => {
     const mapStyles = {
@@ -187,12 +190,39 @@ const Team = ()=>{
 
 
 const Contact = ()=>{
+
+  const dispatch = useDispatch();
+  const {loading} = useSelector((state) => state.creatReport);
+  
+  const [name, setName] = useState("")
+  const [subject, setSubject] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+ 
+  const handleSubmit = (e) => {
+e.preventDefault();
+
+
+dispatch(createReport(name,subject,email,message));
+setName("");
+setSubject("");
+setEmail("");
+setMessage("");
+
+// history.push("/aboutus");
+toast.success("Form summited successfully")
+  }
+
      return (
     
         
 <section className="contact-page-sec">
+<<<<<<< HEAD
 
 <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
+=======
+<h1 className="display-5 mb-3 underline-heading" style={{marginLeft:"40%"}}>Contact Us</h1>
+>>>>>>> be73f6ee (2023.06.16)
   <div className="container">
     <div className="row">
       <div className="col-md-4">
@@ -242,35 +272,35 @@ const Contact = ()=>{
       <div className="col-md-8">
         <div className="contact-page-form">
           <h2>Conduct Us</h2> 
-          <form action="contact-mail.php" method="post">
+          <form  onSubmit = {handleSubmit}>
             <div className="row">
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="text" placeholder="Your Name" name="name"/>
+                  <input type="text" placeholder="Your Name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
                 </div>
               </div>  
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="email" placeholder="E-mail" name="email" required/>
+                  <input type="email" placeholder="E-mail" name="email" value={email} onChange={(e)=> setEmail(e.target.value)}/>
                 </div>
               </div>                              
               <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
-                  <input type="text" placeholder="Phone Number" name="phone"/>
+                  <input type="text" placeholder="Subject" name="Subject" value={subject}onChange={(e)=> setSubject(e.target.value)}/>
                 </div>
               </div>  
-              <div className="col-md-6 col-sm-6 col-xs-12">
+              {/* <div className="col-md-6 col-sm-6 col-xs-12">
                 <div className="single-input-field">
                   <input type="text" placeholder="Subject" name="subject"/>
                 </div>
-              </div>                
+              </div>                 */}
               <div className="col-md-12 message-input">
                 <div className="single-input-field">
-                  <textarea placeholder="Write Your Message" name="message"></textarea>
+                  <textarea placeholder="Write Your Message" name="message" value={message}onChange={(e)=> setMessage(e.target.value)}></textarea>
                 </div>
               </div>                                                
               <div className="single-input-fieldsbtn">
-                <input type="submit" value="Send Now"/>
+                <button type="submit" value="Send Now" disabled={loading} style={{padding:"5px,15px,5px,15px",background:"#2A4E45",color:"#fff"}}>Send</button>
               </div>                          
             </div>
           </form>   

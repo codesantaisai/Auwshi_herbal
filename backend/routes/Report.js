@@ -5,8 +5,8 @@ const {
   getReportById,
   updateReport,
   deleteReport
-} = require("../controllers/formController");
-const { isAuthenticatedUser, authorizeRoles } = require("../middlewares/authenticate");
+} = require("../controllers/ReportController.js");
+const { isAuthenticatedUser, authorizeRoles } = require("../middlewares/authenticate.js");
 const router = express.Router();
 
 // Create a new Note

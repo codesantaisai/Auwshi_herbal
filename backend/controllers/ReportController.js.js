@@ -1,6 +1,6 @@
-const Report = require("../models/formModel");
-const ErrorHandler = require("../utils/errorHandler");
-const catchAsyncErrors = require("../middlewares/catchAsyncError");
+const Report = require("../models/ReportModel.js");
+const ErrorHandler = require("../utils/errorHandler.js");
+const catchAsyncErrors = require("../middlewares/catchAsyncError.js");
 
 // Create a new report --Customer
 exports.createReport = catchAsyncErrors(async (req, res, next) => {
