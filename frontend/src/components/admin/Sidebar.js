@@ -33,6 +33,9 @@ export default function Sidebar () {
                 <li>
                     <Link to="/admin/blogs"><i className="fa fa-users"></i> Create Blog</Link>
                 </li>
+                <li>
+                    <Link to="/admin/reports"><i className="fa fa-users"></i> Reports</Link>
+                </li>
 
                 <li>
                     <Link to="/admin/reviews"><i className="fa fa-users"></i> Reviews</Link>
