@@ -6,7 +6,7 @@ export  default function Footer (){
   {/* Copyright */}
   <div
     className="p-3"
-    style={{ backgroundColor: "#58402790" }}
+    style={{ backgroundColor: "#ffffffab " }}
   >
 <div className="container">
   <div className="row text-left">
@@ -18,7 +18,7 @@ export  default function Footer (){
     <div className="col-6 text-right"> 
     {/* Facebook */}
     <a
-      className="btn btn-outline-dark btn-floating m-1"
+      className="btn btn-outline-success btn-floating m-1"
       href="#!"
       role="button"
     >
@@ -26,7 +26,7 @@ export  default function Footer (){
     </a>
     {/* Instagram */}
     <a
-      className="btn btn-outline-dark btn-floating m-1"
+      className="btn btn-outline-success btn-floating m-1"
       href="#!"
       role="button"
     >
@@ -34,7 +34,7 @@ export  default function Footer (){
     </a>
     {/* Linkedin */}
     <a
-      className="btn btn-outline-dark btn-floating m-1"
+      className="btn btn-outline-success btn-floating m-1"
       href="#!"
       role="button"
     >

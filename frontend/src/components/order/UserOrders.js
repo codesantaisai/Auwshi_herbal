@@ -59,7 +59,7 @@ export default function UserOrders () {
                 status: userOrder.orderStatus && userOrder.orderStatus.includes('Delivered') ?
                 (<p style={{color: 'green'}}> {userOrder.orderStatus} </p>):
                 (<p style={{color: 'red'}}> {userOrder.orderStatus} </p>),
-                actions: <Link to={`/order/${userOrder._id}`} className="btn btn-primary" >
+                actions: <Link to={`/order/${userOrder._id}`} className="btn btn-success" >
                     <i className='fa fa-eye'></i>
                 </Link>
             })

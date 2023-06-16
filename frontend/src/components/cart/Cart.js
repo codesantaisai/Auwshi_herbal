@@ -27,11 +27,11 @@ export default function Cart() {
     return (
         <Fragment>
             {items.length==0 ? 
-                <h2 className="mt-5">Your Cart is Empty</h2> :
+                <h2 className="mt-5 carthead">Your Cart is Empty</h2> :
                 <Fragment>
-                     <h2 className="mt-5">Your Cart: <b>{items.length} items</b></h2>
+                     <h2 className="mt-5 carthead">Your Cart: <b>{items.length} items</b></h2>
                     <div className="row d-flex justify-content-between">
-                        <div className="col-12 col-lg-8">
+                        <div className="col-12 col-lg-8" id="orderitem">
                             {items.map(item => (
                                 <Fragment key={item.product}>
                                     <hr />
@@ -55,7 +55,7 @@ export default function Cart() {
                                                     <span className="btn btn-danger minus" onClick={() => decreaseQty(item)}>-</span>
                                                     <input type="number" className="form-control count d-inline" value={item.quantity} readOnly />
 
-                                                    <span className="btn btn-primary plus" onClick={() => increaseQty(item)}>+</span>
+                                                    <span className="btn btn-success plus" onClick={() => increaseQty(item)}>+</span>
                                                 </div>
                                             </div>
 

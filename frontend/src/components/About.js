@@ -191,6 +191,7 @@ const Contact = ()=>{
     
         
 <section className="contact-page-sec">
+
 <h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
   <div className="container">
     <div className="row">
@@ -283,6 +284,7 @@ const Contact = ()=>{
       </div>        
     </div>
   </div>
+
 </section>
      );
     }
