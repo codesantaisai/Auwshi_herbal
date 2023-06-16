@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Roboto' !important;
+  font-family: 'sans-serif' !important;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -67,7 +67,7 @@ nav {
 #view_btn {
   background-color: #5840273c;
   padding: 0.4rem 1.8rem;
-  font-family: calibri;
+  /* font-family: calibri; */
 }
 
 #cart {
@@ -91,6 +91,9 @@ nav {
 /* Product page */
 #products_heading {
   margin-top: 1.8rem;
+  /* padding-left: 50%;
+  padding-right: 0; */
+  
 }
 
 .card {
@@ -171,7 +174,7 @@ footer {
 .rating-outer {
   display: inline-block;
   position: relative;
-  font-family: FontAwesome;
+  /* font-family: FontAwesome; */
   color: #58402784;
 }
 
@@ -422,7 +425,7 @@ footer {
   clear: both;
   margin: 20px auto;
   width: auto;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   overflow: auto;
 }
 
@@ -861,11 +864,11 @@ ul.CTAs a {
   position: relative;
 }
 .projcard-title {
-  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  /* font-family: 'Voces', 'Open Sans', arial, sans-serif; */
   font-size: 24px;
 }
 .projcard-subtitle {
-  font-family: 'Voces', 'Open Sans', arial, sans-serif;
+  /* font-family: 'Voces', 'Open Sans', arial, sans-serif; */
   color: #888;
 }
 
@@ -1376,3 +1379,7 @@ margin-top: 36px;
 padding: 20px 15px 0;
 }
 /* contact us end */
+
+h1{
+  color: #584027;
+}

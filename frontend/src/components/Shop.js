@@ -33,7 +33,7 @@ export  default function Shop(){
             {loading ? <Loader/>:
                 <Fragment>
                     <MetaData title={'Buy Best Products'} />
-                    <h1 id="products_heading" className="underline-heading">Latest Products</h1>
+                    <div><h1 id="products_heading" className="underline-heading">Latest Products</h1></div>
                     <section id="products" className="container mt-5">
                         <div className="row">
                             { products && products.map(product => (
