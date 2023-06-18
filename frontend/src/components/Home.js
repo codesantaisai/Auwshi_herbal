@@ -49,7 +49,7 @@ const Why = ()=>{
         src="/images/web.jpg"
       />
       <div className="projcard-textbox">
-        <div className="projcard-title"><h1 className="underline-heading">Herbal Product</h1>
+        <div className="projcard-title"><h1 className="underline-heading">Who AUWSHI?</h1>
 </div>
         <div className="projcard-subtitle">
           {/* This explains the card in more detail */}
@@ -185,7 +185,7 @@ function MyComponent(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3 underline-heading">What are the benefits in AUWSHI product? </h1>
+      <h1 className="display-5 mb-3 underline-heading">Benefits Of AUWSHI </h1>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">

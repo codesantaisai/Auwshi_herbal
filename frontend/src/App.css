@@ -174,7 +174,7 @@ footer {
 .rating-outer {
   display: inline-block;
   position: relative;
-  /* font-family: FontAwesome; */
+  font-family: FontAwesome;
   color: #58402784;
 }
 
@@ -280,7 +280,7 @@ footer {
 }
 
 #delete_cart_item {
-  color: red;
+  color: white;
   background: white;
   padding: 0.3rem 0.5rem;
   font-size: 1.1rem;
@@ -520,11 +520,11 @@ footer {
   padding: 2rem 1.5rem;
 }
 
-.update-btn {
+/* .update-btn {
   background-color: #fa9c23;
   border-color: #fa9c23;
   color: white;
-}
+} */
 
 .update-btn:hover {
   color: white;
@@ -541,6 +541,20 @@ footer {
   padding-top: 25px;
   box-shadow: 0 0 10px 5px #584027;
   margin-top: 30px;
+  margin-right: 25px;
+}
+.btn-primary {
+background-color: #078617 !important;
+border-color:  #078617 !important;
+
+}
+.btn-danger{
+  background-color: rgba(255, 0, 0, 0.793) !important;
+  border-color: rgba(255, 0, 0, 0.861) !important;
+}
+.orders{
+  background-color: #584027 !important;
+  border-color: #584027 !important;
 }
 .prodetail{
   background-color: white;
@@ -582,7 +596,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background:#735535 !important;
+  background:#584027 !important;
   color: #fff;
   transition: all 0.3s;
 }
@@ -592,11 +606,11 @@ footer {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #232f3e;
+  /* background: #232f3e; */
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #232f3e;
+  border-bottom: 1px solid #078617;
 }
 
 #sidebar ul li a {
@@ -607,12 +621,12 @@ footer {
   text-decoration: none;
 }
 #sidebar ul li a:hover {
-  color: #232f3e;
+  color: #078617;
   background: #fff;
 }
 
 #sidebar ul li div.dropdown-menu a{
-  color: black;
+  color: #078617;
 
 }
 
@@ -623,7 +637,7 @@ footer {
 #sidebar ul li.active > a,
 a[aria-expanded='true'] {
   color: #fff;
-  background: #232f3e;
+  background: #fff;
 }
 a[data-toggle='collapse'] {
   position: relative;
@@ -639,7 +653,7 @@ a[data-toggle='collapse'] {
 ul ul a {
   font-size: 1rem !important;
   padding-left: 30px !important;
-  background: #232f3e;
+  background: white;
 }
 
 ul.CTAs {
@@ -664,6 +678,14 @@ ul.CTAs a {
 
 .card-font-size {
   font-size: 1.5rem;
+}
+#prolink{
+  color: #078617;
+  display: block;
+  background-color: #fff;
+}
+#prolink:hover{
+  color:#078617 ;
 }
 
 /* Reviews */
@@ -692,11 +714,11 @@ ul.CTAs a {
 }
 
 .orange {
-  color: #fa9c23;
+  color: #078617;
 }
 
 .yellow {
-  color: #fdcc0d;
+  color: #078618ba;
 }
 
 .review_user {
