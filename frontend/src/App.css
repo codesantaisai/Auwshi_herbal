@@ -144,7 +144,7 @@ nav {
   margin-left: 0.5rem;
 }
 .carthead{
-  background-color: #078617;
+  background-color: #fff;
  color: #584027;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -582,7 +582,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #584027b1 !important;
+  background:#735535 !important;
   color: #fff;
   transition: all 0.3s;
 }
@@ -1384,3 +1384,9 @@ padding: 20px 15px 0;
 h1{
   color: #584027;
 }
+
+.card1{
+background-color: #C2A999;
+border-radius: 10px;
+}
+
