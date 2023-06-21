@@ -218,7 +218,7 @@ toast.success("Form summited successfully")
         
 <section className="contact-page-sec">
 
-<h1 className="display-5 mb-3 underline-heading" style={{marginLeft:"40%"}}>Contact Us</h1>
+<h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
   <div className="container">
     <div className="row">
       <div className="col-md-4">
