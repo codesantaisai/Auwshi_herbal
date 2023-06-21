@@ -267,7 +267,7 @@ toast.success("Form summited successfully")
     <div className="row">
       <div className="col-md-8">
         <div className="contact-page-form">
-          <h2>Conduct Us</h2> 
+          <h2>Contact Us</h2> 
           <form  onSubmit = {handleSubmit}>
             <div className="row">
               <div className="col-md-6 col-sm-6 col-xs-12">
