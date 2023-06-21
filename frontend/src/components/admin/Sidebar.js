@@ -13,9 +13,9 @@ export default function Sidebar () {
                     <Link to="/admin/dashboard"><i className="fas fa-tachometer-alt"></i> Dashboard</Link>
                 </li>
         
-                <li>
+                <li id="prolink">
                     <NavDropdown title={
-                        <i className='fa fa-product-hunt'> Product</i>
+                        <i class="fa-brands fa-product-hunt" > Product</i>
                     }>
                         <NavDropdown.Item  onClick={() => navigate('/admin/products')} > <i className='fa fa-shopping-basket'> All</i></NavDropdown.Item>
                         <NavDropdown.Item  onClick={() => navigate('/admin/products/create')} > <i className='fa fa-plus'> Create </i></NavDropdown.Item>
@@ -29,16 +29,17 @@ export default function Sidebar () {
                 <li>
                     <Link to="/admin/users"><i className="fa fa-users"></i> Users</Link>
                 </li>
-                
+
                 <li>
-                    <Link to="/admin/blogs"><i className="fa fa-users"></i> Create Blog</Link>
+                    <Link to="/admin/reviews"><i className="fa fa-comments"></i> Reviews</Link>
                 </li>
+
                 <li>
                     <Link to="/admin/reports"><i className="fa fa-users"></i> Reports</Link>
                 </li>
 
                 <li>
-                    <Link to="/admin/reviews"><i className="fa fa-users"></i> Reviews</Link>
+                    <Link to="/admin/blogs"><i className="fa fa-blog"></i> Create Blog</Link>
                 </li>
         
             </ul>
