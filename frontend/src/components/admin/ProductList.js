@@ -59,7 +59,7 @@ export default function ProductList() {
                 price : `LKR ${product.price}`,
 
                 productId:product.productId,
-                price : `$${product.price}`,
+                price : `LKR ${product.price}`,
 
                 stock: product.stock,
                 actions: (
