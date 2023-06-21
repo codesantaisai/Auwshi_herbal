@@ -217,16 +217,8 @@ toast.success("Form summited successfully")
     
         
 <section className="contact-page-sec">
-<<<<<<< HEAD
-<h1 className="display-5 mb-3 underline-heading" style={{marginLeft:"40%"}}>Contact Us</h1>
-=======
-<<<<<<< HEAD
 
-<h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
-=======
 <h1 className="display-5 mb-3 underline-heading" style={{marginLeft:"40%"}}>Contact Us</h1>
->>>>>>> be73f6ee (2023.06.16)
->>>>>>> 19a3768c (xx)
   <div className="container">
     <div className="row">
       <div className="col-md-4">
@@ -275,7 +267,7 @@ toast.success("Form summited successfully")
     <div className="row">
       <div className="col-md-8">
         <div className="contact-page-form">
-          <h2>Conduct Us</h2> 
+          <h2>Contact Us</h2> 
           <form  onSubmit = {handleSubmit}>
             <div className="row">
               <div className="col-md-6 col-sm-6 col-xs-12">
