@@ -60,7 +60,7 @@ const Why = ()=>{
           Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals. Our product promotes overall wellness, providing relief from common ailments. With its gentle yet effective formula, it supports the body's natural healing processes. Experience the power of nature with our herbal product.
         </div>
         <div>
-          <a class="btn btn-success" href="/product" role="button">Viewproduct</a>
+          <a class="btn btn-success" href="/product" role="button">View Product</a>
           </div>
       </div>
     </div>
@@ -185,7 +185,7 @@ function MyComponent(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3 underline-heading">Benefits Of Auwshi </h1><br></br><br></br>
+      <h1 className="display-5 mb-3 underline-heading">Why Auwshi? </h1><br></br><br></br>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">
   <div className="card h-100">
