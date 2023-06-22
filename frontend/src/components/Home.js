@@ -60,7 +60,7 @@ const Why = ()=>{
           Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals. Our product promotes overall wellness, providing relief from common ailments. With its gentle yet effective formula, it supports the body's natural healing processes. Experience the power of nature with our herbal product.
         </div>
         <div>
-          <a class="btn btn-success" href="/product" role="button">Viewproduct</a>
+          <a class="btn btn-success" href="/product" role="button">View product</a>
           </div>
       </div>
     </div>
