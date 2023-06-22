@@ -9,7 +9,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  margin-top: 45px; 
+  margin-top: 50px; 
  background-color:  #e8cbc0;
   /* background: linear-gradient(to right, #e8cbc0, #9967036a); */
   margin-bottom: 110px;
@@ -40,8 +40,7 @@ h3{
 }
 
 nav {
-  margin-top: -12px !important;
-
+  /* margin-top: -12px !important; */
   background-color:#ffffffab !important;
   padding: 1rem 1rem;
 }
@@ -49,9 +48,9 @@ nav {
   font-size: 1.3rem;
 }
 
-.nav-content{
+/* .nav-content{
   margin-top: 13px;
-}
+} */
 .nav-link{
   color:#584027 !important;
 }
