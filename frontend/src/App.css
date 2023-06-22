@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&family=Playfair+Display&display=swap');
+
 html,
 body {
-  font-family: 'sans-serif' !important;
+  font-family: 'Eczar', serif;
+  font-family: 'Playfair Display', serif;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -37,10 +40,17 @@ h3{
 }
 
 nav {
-  margin-top: -15px !important;
+  margin-top: -12px !important;
 
   background-color:#ffffffab !important;
   padding: 1rem 1rem;
+}
+.usr{
+  font-size: 1.3rem;
+}
+
+.nav-content{
+  margin-top: 13px;
 }
 .nav-link{
   color:#584027 !important;
@@ -128,6 +138,8 @@ nav {
 
 .card-body {
   padding-left: 0;
+  background-color: white;
+  border-radius: 10px;
 
 }
 
@@ -609,8 +621,8 @@ border-color:  #078617 !important;
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background:#584027 !important;
-  color: #fff;
+  background:#e8cbc0 !important;
+  color: #584027;
   transition: all 0.3s;
 }
 #sidebar.active {
@@ -623,14 +635,14 @@ border-color:  #078617 !important;
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #078617;
+  /* border-bottom: 1px solid #078617; */
 }
 
 #sidebar ul li a {
-  padding: 10px;
+  padding: 16px;
   font-size: 1.1em;
   display: block;
-  color: white;
+  color: #584027;
   text-decoration: none;
 }
 #sidebar ul li a:hover {
@@ -690,7 +702,7 @@ ul.CTAs a {
 /* Dashboard */
 
 .card-font-size {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 #prolink{
   color: #078617;
