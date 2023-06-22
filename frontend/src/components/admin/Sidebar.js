@@ -15,7 +15,7 @@ export default function Sidebar () {
         
                 <li id="prolink">
                     <NavDropdown title={
-                        <i class="fa-brands fa-product-hunt" > Product</i>
+                        <i class="fa fa-shopping-bag pro" aria-hidden="true" > Product</i>
                     }>
                         <NavDropdown.Item  onClick={() => navigate('/admin/products')} > <i className='fa fa-shopping-basket'> All</i></NavDropdown.Item>
                         <NavDropdown.Item  onClick={() => navigate('/admin/products/create')} > <i className='fa fa-plus'> Create </i></NavDropdown.Item>
@@ -25,7 +25,7 @@ export default function Sidebar () {
                 <li>
                     <Link to="/admin/orders"><i className="fa fa-shopping-basket"></i> Orders</Link>
                 </li>
-
+                        
                 <li>
                     <Link to="/admin/users"><i className="fa fa-users"></i> Users</Link>
                 </li>
