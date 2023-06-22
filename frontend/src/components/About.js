@@ -44,7 +44,7 @@ const Team = ()=>{
   <div className="container py-5">
     <div className="row text-center text-dark">
       <div className="col-lg-8 mx-auto">
-        <h1 className="display-5 mb-3 underline-heading">Team Page</h1>
+        <h1 className="display-5 mb-3 underline-heading">Team</h1>
       </div>
     </div>
   </div>
@@ -59,6 +59,7 @@ const Team = ()=>{
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+            style={{height:"200px",width:"200px",borderRadius:"100%"}}
           />
           <h5 className="mb-0">Jathurshan Santhirasekaram</h5>
           <span className="small text-uppercase text-muted">CEO - Founder</span>
@@ -91,6 +92,7 @@ const Team = ()=>{
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+            style={{height:"200px",width:"200px",borderRadius:"100%"}}
           />
           <h5 className="mb-0">Nilaxan Charlas Vijayakumar</h5>
           <span className="small text-uppercase text-muted">CEO - Founder</span>
@@ -123,6 +125,7 @@ const Team = ()=>{
             alt=""
             width={100}
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+            style={{height:"200px",width:"200px",borderRadius:"100%"}}
           />
           <h5 className="mb-0">Anoshaa <br/>Tharmalingam</h5>
           <span className="small text-uppercase text-muted">CEO - Founder</span>
@@ -154,7 +157,9 @@ const Team = ()=>{
             src="/images/sayan.jpeg"
             alt=""
             width={100}
+          
             className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
+            style={{height:"200px",width:"200px",borderRadius:"100%"}}
           />
           <h5 className="mb-0">Suyanasrishayan Anbalagan</h5>
           <span className="small text-uppercase text-muted">CEO - Founder</span>
@@ -327,7 +332,7 @@ function Feature(){
   return(
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s">
-      <h1 className="display-5 mb-3 underline-heading">Our Features </h1>
+      <h1 className="display-5 mb-3 underline-heading">Our Features </h1><br></br><br></br>
       <p>Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals..</p>
 <div className="row row-cols-1 row-cols-md-3 g-4">
 <div className="col">

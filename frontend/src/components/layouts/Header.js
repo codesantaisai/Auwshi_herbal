@@ -22,12 +22,12 @@ function Header() {
     <div>
       <Navbar variant="dark" className="fixed-top">
         <Container>
-          <div className="navbar navbar-brand">
+          <div className="navbar navbar-brand ">
             <Link to="/">
-              <img id='logo' width="250px"  alt='Auwshi-Herbs.png' src="/images/Herbs.png" />
+              <img id='logo' width="250px" alt='Auwshi-Herbs.png' src="/images/Herbs.png" />
             </Link>
           </div>
-          <Nav className="me-auto">
+          <Nav className="me-auto nav-content">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link className="navbox" href="/aboutus">About Us</Nav.Link>
             <Nav.Link href="/product">Products</Nav.Link>
@@ -40,7 +40,7 @@ function Header() {
                   <figure className='avatar avatar-nav'>
                     <Image width="50px" src={user.avatar ?? './images/default_avatar.png'} />
                   </figure>
-                  <span className='text-light'>{user.name}</span>
+                  <span className='usr'>{user.name}</span>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   {user.role === 'admin' && <Dropdown.Item onClick={() => { navigate('admin/dashboard') }} className='text-dark'>Dashboard</Dropdown.Item>}
