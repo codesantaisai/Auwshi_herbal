@@ -124,7 +124,7 @@ const ReportList = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-      /> */}
+      /> 
     </Fragment>
   );
 };
