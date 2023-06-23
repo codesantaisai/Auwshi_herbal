@@ -56,7 +56,7 @@ nav {
   margin-top: 13px;
 } */
 .nav-link{
-  color:#584027 !important;
+  color:#078617 !important;
 }
 .text-light{
   color:#584027 !important;
@@ -624,7 +624,7 @@ border-color:  #078617 !important;
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background:#e8cbc0 !important;
+  background:white !important;
   color: #584027;
   transition: all 0.3s;
 }
@@ -645,7 +645,7 @@ border-color:  #078617 !important;
   padding: 16px;
   font-size: 1.1em;
   display: block;
-  color: #584027;
+  color: #078617;
   text-decoration: none;
 }
 #sidebar ul li a:hover {

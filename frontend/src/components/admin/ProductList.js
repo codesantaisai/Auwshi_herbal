@@ -104,11 +104,11 @@ export default function ProductList() {
 
 
     return (
-        <div className="row">
+        <div className="row body-fixed">
         <div className="col-12 col-md-2">
                 <Sidebar/>
         </div>
-        <div className="col-12 col-md-10">
+        <div className="col-12 col-md-10 ">
             <h1 className="my-4">Product List</h1>
             <Fragment>
                 {loading ? <Loader/> : 
