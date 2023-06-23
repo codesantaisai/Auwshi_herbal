@@ -9,6 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import MetaData from "../layouts/MetaData";
 import "./CustomerBlog.css";
 
+
 const BlogsList = () => {
   const dispatch = useDispatch();
   const { blogs } = useSelector((state) => state.AllBlogs);

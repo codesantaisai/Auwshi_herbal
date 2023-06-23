@@ -22,7 +22,7 @@ function Header() {
     <div>
       <Navbar variant="dark" className="fixed-top">
         <Container>
-          <div className="navbar navbar-brand ">
+          <div className="navbar navbar-brand  ">
             <Link to="/">
               <img id='logo' width="250px" alt='Auwshi-Herbs.png' src="/images/Herbs.png" />
             </Link>

@@ -8,7 +8,7 @@ export default function Product({ product, col }) {
   const dispatch = useDispatch();
 
   return (
-    <div className={` col-sm`}>
+    <div className={` col-md-4 col-sm-8`}>
       <div className="product-grid">
         <div className="product-image">
           <Link to="#" className="image">

@@ -44,9 +44,10 @@ h5{
 }
 
 nav {
-  /* margin-top: -12px !important; */
+  
   background-color:#ffffffab !important;
   padding: 1rem 1rem;
+  
 }
 .usr{
   font-size: 1.3rem;
