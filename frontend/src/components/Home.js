@@ -78,7 +78,7 @@ function Viewproduct() {
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s"
 >
-    <h1 className="display-5 mb-3 underline-heading">Our Products</h1><br></br><br></br>
+    <h1 className="display-5 mb-3 underline-heading">Latest Products</h1><br></br><br></br>
     
     <div className="row">
       <div className="col-md-3 col-sm-6">

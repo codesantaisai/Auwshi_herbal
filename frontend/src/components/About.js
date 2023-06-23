@@ -301,7 +301,7 @@ toast.success("Form summited successfully")
                 </div>
               </div>                                                
               <div className="single-input-fieldsbtn">
-                <button type="submit" value="Send Now" disabled={loading} style={{padding:"5px,15px,5px,15px",background:"#2A4E45",color:"#fff"}}>Send</button>
+                <button type="submit" value="Send Now" disabled={loading} style={{background:"#078617",color:"#fff" , borderRadius:"13px"}}>Send </button>
               </div>                          
             </div>
           </form>   

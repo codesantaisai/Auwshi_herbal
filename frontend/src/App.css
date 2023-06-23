@@ -20,6 +20,10 @@ body {
 h3{
   font-size: 2rem;
 }
+h5{
+  font-size: larger;
+  font-weight: bold;
+}
 
 /* Scroll Bar */
 
