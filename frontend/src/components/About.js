@@ -44,7 +44,7 @@ const Team = ()=>{
   <div className="container py-5">
     <div className="row text-center text-dark">
       <div className="col-lg-8 mx-auto">
-        <h1 className="display-5 mb-3 underline-heading">Team</h1>
+        <h1 className="display-5 mb-3 underline-heading"> Our Team</h1>
       </div>
     </div>
   </div>
@@ -222,9 +222,10 @@ toast.success("Form summited successfully")
     
         
 <section className="contact-page-sec">
-
-<h1 className="display-5 mb-3 underline-heading">Contact Us</h1>
-  <div className="container">
+<div className="section-header text-center mx-auto mb-5 wow fadeInUp"
+    data-wow-delay="0.1s">
+      <h1 className="display-5 mb-3 underline-heading">Contact Us </h1></div>
+   <div className="container">
     <div className="row">
       <div className="col-md-4">
         <div className="contact-info">
@@ -319,13 +320,6 @@ toast.success("Form summited successfully")
 </section>
      );
     }
-
-
-
-
-
-
-
 
 
 function Feature(){
