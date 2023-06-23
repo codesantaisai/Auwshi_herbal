@@ -97,10 +97,10 @@ const ReportList = () => {
                 <h4>
                   {moment(report.createdAt).format("MMMM Do, YYYY")}
                 </h4>
-                <h2>{report.name}</h2><hr />
-                <p>{report.email}</p>
-                <p>{report.subject}</p>
-                <p>{report.message}</p>
+                <h4>{report.name}</h4><hr />
+                <h6>{report.email}</h6>
+                <h6>{report.subject}</h6>
+                <h6>{report.message}</h6>
                 <button
                   variant="contained"
                   color="secondary"
@@ -124,7 +124,7 @@ const ReportList = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-      /> */}
+      /> 
     </Fragment>
   );
 };

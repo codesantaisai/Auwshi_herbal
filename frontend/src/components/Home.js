@@ -60,7 +60,9 @@ const Why = ()=>{
           Our herbal product offers a range of benefits. It is made from natural ingredients, free from harmful chemicals. Our product promotes overall wellness, providing relief from common ailments. With its gentle yet effective formula, it supports the body's natural healing processes. Experience the power of nature with our herbal product.
         </div>
         <div>
+
           <a class="btn btn-success" href="/product" role="button">View Product</a>
+
           </div>
       </div>
     </div>
@@ -78,7 +80,7 @@ function Viewproduct() {
     <div className="section-header text-center mx-auto mb-5 wow fadeInUp"
     data-wow-delay="0.1s"
 >
-    <h1 className="display-5 mb-3 underline-heading">Our Products</h1><br></br><br></br>
+    <h1 className="display-5 mb-3 underline-heading">Latest Products</h1><br></br><br></br>
     
     <div className="row">
       <div className="col-md-3 col-sm-6">
