@@ -61,7 +61,7 @@ const Why = ()=>{
         </div>
         <div>
 
-          <a class="btn btn-success" href="/product" role="button">View Product</a>
+          <a class="btn btn-success View-Product " href="/product" role="button">View Product</a>
 
           </div>
       </div>

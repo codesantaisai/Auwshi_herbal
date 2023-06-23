@@ -943,9 +943,9 @@ ul.CTAs a {
   .projcard-customcolor:nth-child(2n)::before { background-image: linear-gradient(-250deg, var(--projcard-color), transparent 50%); }
   .projcard-description {
     z-index: 10;
-    font-size: 15px;
+    font-size: 1.2rem !important;
     color: #424242;
-    height: 125px;
+    height: 150px !important;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1233,6 +1233,7 @@ ul.CTAs a {
 .product-grids .titles a{
   color: #000;
   transition: all 0.3s ease 0s;
+  font-size: 1.4rem;
 }
 .product-grids .titles a:hover{ animation: color-animate 5s infinite linear; }
 .product-grids .prices{
@@ -1443,3 +1444,6 @@ background-color: #C2A999;
 border-radius: 10px;
 }
 
+.View-Product{
+  margin-top: 2px;
+}
